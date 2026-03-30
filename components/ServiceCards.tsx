@@ -13,7 +13,7 @@ const services = [
     description:
       "A certified mobility coach comes to your College Station or Bryan home and builds a session entirely around you — your posture, your pain points, your fitness goals. No mirrors, no judgment, no 6am classes.",
     features: [
-      { icon: Clock, text: "50-min private sessions" },
+      { icon: Clock, text: "60-min private sessions" },
       { icon: MapPin, text: "Home visits across Brazos Valley" },
       { icon: User, text: "100% tailored to you" },
     ],
@@ -23,20 +23,19 @@ const services = [
     ctaClass: "bg-slate-900 hover:bg-slate-700 text-white",
     outcomes: ["Faster recovery", "Better sleep", "Less chronic pain"],
   },
-  {
+    {
     id: "events",
     icon: CalendarDays,
     iconBg: "bg-amber-500",
-    badge: "Community",
+    badge: "Group Session",
     badgeBg: "bg-amber-50 text-amber-700",
-    title: "Local Pop-Up Events",
-    subtitle: "Great yoga. Great venues.",
+    title: "Group Session",
+    subtitle: "Great yoga or pilates. Great friends.",
     description:
-      "We partner with College Station's top breweries, rooftops, and cafes to bring accessible, high-energy yoga nights to the Brazos Valley community. All levels welcome. Grab a mat and a friend.",
+      "Whether you're looking to reset the office, bond with the squad, or give your team a competitive edge, we bring the recovery to you. We tailor high-energy sessions for friend groups, corporate offices, and athletic teams across the Brazos Valley.",
     features: [
-      { icon: CalendarDays, text: "Monthly events across CS & Bryan" },
       { icon: Users, text: "Open to all fitness levels" },
-      { icon: MapPin, text: "Rotating Brazos Valley venues" },
+      { icon: MapPin, text: "Recovery & Mobility straight to your Group" },
     ],
     cta: "View Local Calendar",
     href: "#contact",
@@ -44,6 +43,27 @@ const services = [
     ctaClass: "bg-amber-500 hover:bg-amber-600 text-white",
     outcomes: ["Community connection", "Fun & low-pressure", "Great for groups"],
   },
+  // {
+  //   id: "events",
+  //   icon: CalendarDays,
+  //   iconBg: "bg-amber-500",
+  //   badge: "Community",
+  //   badgeBg: "bg-amber-50 text-amber-700",
+  //   title: "Local Pop-Up Events",
+  //   subtitle: "Great yoga. Great venues.",
+  //   description:
+  //     "We partner with College Station's top breweries, rooftops, and cafes to bring accessible, high-energy yoga nights to the Brazos Valley community. All levels welcome. Grab a mat and a friend.",
+  //   features: [
+  //     { icon: CalendarDays, text: "Monthly events across CS & Bryan" },
+  //     { icon: Users, text: "Open to all fitness levels" },
+  //     { icon: MapPin, text: "Rotating Brazos Valley venues" },
+  //   ],
+  //   cta: "View Local Calendar",
+  //   href: "#contact",
+  //   border: "border-amber-200 hover:border-amber-400",
+  //   ctaClass: "bg-amber-500 hover:bg-amber-600 text-white",
+  //   outcomes: ["Community connection", "Fun & low-pressure", "Great for groups"],
+  // },
 ] as const;
 
 export function ServiceCards() {

@@ -17,19 +17,32 @@ const segments = [
     border: "hover:border-slate-900",
     btnClass: "bg-slate-900 hover:bg-slate-700 text-white",
   },
-  {
+    {
     id: "events",
     icon: CalendarDays,
-    tag: "Pop-Up Events",
+    tag: "Group Session",
     tagBg: "bg-amber-100 text-amber-800",
-    headline: "Yoga night at your\nfavorite local spot.",
-    sub: "Community sessions at College Station breweries, cafes, and Brazos Valley venues. All levels welcome — bring a mat and a friend.",
+    headline: "Group Session\nwith your Group or Team.",
+    sub: "Tailored mobility and recovery sessions for your friend group, office, or athletic team.",
     cta: "Check Availability",
     href: "#events",
     iconBg: "bg-amber-500",
     border: "hover:border-amber-500",
     btnClass: "bg-amber-500 hover:bg-amber-600 text-white",
   },
+  // {
+  //   id: "events",
+  //   icon: CalendarDays,
+  //   tag: "Pop-Up Events",
+  //   tagBg: "bg-amber-100 text-amber-800",
+  //   headline: "Yoga night at your\nfavorite local spot.",
+  //   sub: "Community sessions at College Station breweries, cafes, and Brazos Valley venues. All levels welcome — bring a mat and a friend.",
+  //   cta: "Check Availability",
+  //   href: "#events",
+  //   iconBg: "bg-amber-500",
+  //   border: "hover:border-amber-500",
+  //   btnClass: "bg-amber-500 hover:bg-amber-600 text-white",
+  // },
 ] as const;
 
 export function Hero() {
