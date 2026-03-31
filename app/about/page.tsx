@@ -516,8 +516,8 @@ export default function AboutPage() {
 
           <p className="mt-6 text-xs text-slate-400">
             Serving College Station, Bryan, and the greater Brazos Valley ·{" "}
-            <a href="mailto:hello@neonfox.com" className="underline hover:text-slate-600 transition-colors">
-              hello@neonfox.com
+            <a href="mailto:neonfoxmethod@gmail.com" className="underline hover:text-slate-600 transition-colors">
+              neonfoxmethod@gmail.com
             </a>
           </p>
         </div>

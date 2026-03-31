@@ -29,9 +29,28 @@ export function ContactForm() {
   async function handleSubmit(e: React.SyntheticEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 900));
+
+    const fd = new FormData(e.currentTarget);
+    const body = {
+      segment,
+      name:     fd.get("name"),
+      email:    fd.get("email"),
+      location: fd.get("location"),
+      message:  fd.get("message"),
+    };
+
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
+
     setLoading(false);
-    setSubmitted(true);
+    if (res.ok) {
+      setSubmitted(true);
+    } else {
+      alert("Something went wrong — please try again or email neonfoxmethod@gmail.com directly.");
+    }
   }
 
   const ctaLabel =
@@ -71,7 +90,7 @@ export function ContactForm() {
             <p className="text-slate-400 max-w-sm">
               We&apos;ll be in touch within one business day. Urgent?{" "}
               <span className="text-[#800000] font-medium">
-                hello@neonfox.com
+                neonfoxmethod@gmail.com
               </span>
             </p>
           </div>

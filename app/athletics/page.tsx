@@ -23,6 +23,7 @@ import {
   Trophy,
 } from "lucide-react";
 import { AthleticsContactForm } from "@/components/AthleticsContactForm";
+import { AuditFormLink } from "@/components/AuditFormLink";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -247,7 +248,7 @@ const services = [
       "Schedule around existing practice calendar",
       "Club-budget pricing model",
     ],
-    cta: "View Club Packages",
+    cta: "Check Availability",
     highlight: false,
   },
 ];
@@ -355,14 +356,11 @@ export default function AthleticsPage() {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <Link
-                href="#audit-form"
-                className="group inline-flex items-center gap-2 rounded-full bg-[#800000] hover:bg-[#6b0000] px-7 py-3.5 text-sm font-bold text-white transition-all shadow-lg shadow-[#800000]/20"
-              >
+              <AuditFormLink className="group inline-flex items-center gap-2 rounded-full bg-[#800000] hover:bg-[#6b0000] px-7 py-3.5 text-sm font-bold text-white transition-all shadow-lg shadow-[#800000]/20">
                 <ClipboardList className="h-4 w-4" />
                 Request a Team Audit
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-              </Link>
+              </AuditFormLink>
               {/* <Link
                 href="#audit-form"
                 className="inline-flex items-center gap-2 rounded-full border border-white/15 hover:border-white/30 px-7 py-3.5 text-sm font-semibold text-slate-300 hover:text-white transition-all"
@@ -691,8 +689,7 @@ export default function AthleticsPage() {
                     ))}
                   </ul>
 
-                  <Link
-                    href="#audit-form"
+                  <AuditFormLink
                     className={`group inline-flex w-full items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-bold transition-all ${
                       s.highlight
                         ? "bg-[#800000] hover:bg-[#6b0000] text-white"
@@ -701,7 +698,7 @@ export default function AthleticsPage() {
                   >
                     {s.cta}
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-                  </Link>
+                  </AuditFormLink>
                 </div>
               );
             })}

@@ -18,7 +18,7 @@ const footerLinks = {
   ],
   Connect: [
     { label: "Book a Session", href: "/#contact" },
-    { label: "hello@neonfox.com", href: "mailto:hello@neonfox.com" },
+    { label: "neonfoxmethod@gmail.com", href: "mailto:neonfoxmethod@gmail.com" },
   ],
 };
 
@@ -40,10 +40,10 @@ export function Footer() {
             <div className="flex items-center gap-1.5 text-sm">
               <Mail className="h-3.5 w-3.5 shrink-0 text-[#800000]" />
               <a
-                href="mailto:hello@neonfox.com"
+                href="neonfoxmethod@gmail.com"
                 className="hover:text-white transition-colors"
               >
-                hello@neonfox.com
+                neonfoxmethod@gmail.com
               </a>
             </div>
             <p className="mt-4 text-xs text-slate-600 leading-relaxed">

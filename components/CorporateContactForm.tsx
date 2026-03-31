@@ -11,9 +11,29 @@ export function CorporateContactForm() {
   async function handleSubmit(e: React.SyntheticEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 900));
+
+    const fd = new FormData(e.currentTarget);
+    const body = {
+      name:     fd.get("name"),
+      email:    fd.get("email"),
+      company:  fd.get("company"),
+      teamSize: fd.get("teamSize"),
+      format:   fd.get("format"),
+      message:  fd.get("message"),
+    };
+
+    const res = await fetch("/api/corporate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
+
     setLoading(false);
-    setSubmitted(true);
+    if (res.ok) {
+      setSubmitted(true);
+    } else {
+      alert("Something went wrong — please try again or email neonfoxmethod@gmail.com directly.");
+    }
   }
 
   return (

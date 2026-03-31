@@ -44,15 +44,36 @@ export function AthleticsContactForm() {
   async function handleSubmit(e: React.SyntheticEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 950));
+
+    const fd = new FormData(e.currentTarget);
+    const body = {
+      name:       fd.get("name"),
+      email:      fd.get("email"),
+      role:       fd.get("role"),
+      sport:      fd.get("sport"),
+      rosterSize: fd.get("rosterSize"),
+      timeline:   fd.get("timeline"),
+      goals:      fd.get("goals"),
+    };
+
+    const res = await fetch("/api/audit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
+
     setLoading(false);
-    setSubmitted(true);
+    if (res.ok) {
+      setSubmitted(true);
+    } else {
+      alert("Something went wrong — please try again or email neonfoxmethod@gmail.com directly.");
+    }
   }
 
   return (
     <section
       id="audit-form"
-      className="bg-[#1A1A1A] py-20 px-4 sm:px-6 lg:px-8 scroll-mt-16"
+      className="bg-[#1A1A1A] py-20 px-4 sm:px-6 lg:px-8 scroll-mt-24"
       aria-labelledby="audit-heading"
     >
       <div className="mx-auto max-w-2xl">

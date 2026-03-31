@@ -10,7 +10,7 @@ import logo from "@/app/assets/neon-full-body-transparent-logo.png";
 
 const navLinks = [
   { label: "Private Sessions", href: "/#individual" },
-  { label: "Pop-Up Events", href: "/#events" },
+  // { label: "Pop-Up Events", href: "/#events" },
   { label: "Corporate", href: "/corporate" },
   { label: "Athletics", href: "/athletics" },
   { label: "Blog", href: "/blog" },
