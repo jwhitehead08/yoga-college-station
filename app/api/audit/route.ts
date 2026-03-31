@@ -7,6 +7,7 @@ export async function POST(req: NextRequest) {
   const { name, email, role, sport, rosterSize, timeline, goals } =
     await req.json();
 
+    // update with real 'to' address
   const { error } = await resend.emails.send({
     from: "Neon Fox <onboarding@resend.dev>",
     to: "jwhitehead08@gmail.com",
