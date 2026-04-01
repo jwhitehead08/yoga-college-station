@@ -578,6 +578,158 @@ Or give the gift of recovery: our **New Parent Reset** package is the most thoug
 In-home sessions available across College Station, Bryan, and the greater Brazos Valley. All trimesters welcome. All experience levels welcome. No mat required — we bring everything.
     `.trim(),
   },
+  {
+    slug: "yoga-pilates-after-physical-therapy-step-down-plan",
+    title: "After Physical Therapy: A Yoga & Pilates Step-Down Plan for Lasting Recovery",
+    description:
+      "Discharged from PT but not fully back to normal? Learn how a structured yoga and Pilates step-down plan bridges the gap between physical therapy and full function — with exercises, timelines, and guidance for Brazos Valley residents.",
+    publishedAt: "2026-03-31",
+    readingTime: "9 min read",
+    category: "Athletic Performance",
+    excerpt:
+      "Physical therapy discharge doesn't mean you're done recovering — it means the supervised phase is over. Here's how yoga and Pilates fill the gap and protect your long-term function.",
+    body: `
+Physical therapy discharge is one of the most misunderstood milestones in the recovery process.
+
+Patients often interpret it as a finish line — proof that the injury is healed and life can return to normal. In reality, discharge typically means your symptoms have improved enough that formal clinical supervision is no longer the highest-value use of your time and insurance benefits. The underlying work — rebuilding tissue resilience, restoring full range of motion, retraining neuromuscular patterns — is far from complete.
+
+This is the gap that causes re-injury. It's also the gap where yoga and Pilates do their most important work.
+
+---
+
+## Why the "Graduation Gap" Is a Real Injury Risk
+
+Research published in the **British Journal of Sports Medicine** found that athletes who stopped structured rehabilitation at symptom resolution re-injured at nearly twice the rate of those who continued progressive loading through a structured maintenance program. The same pattern holds for non-athletes recovering from common orthopedic events — ACL reconstruction, rotator cuff repair, lumbar disc herniation, and total joint replacement.
+
+Physical therapists know this. Most will hand you a home exercise program (HEP) at discharge and tell you to keep doing it. The honest truth is that HEP compliance drops below 30% within six weeks of discharge, according to data from the **Journal of Orthopaedic & Sports Physical Therapy**. Without accountability, feedback, and progressive challenge, the gains you made in the clinic slowly erode.
+
+A supervised, individualized yoga and Pilates program — delivered by a qualified instructor who understands your injury history — addresses all three of those gaps.
+
+---
+
+## Why Yoga and Pilates Are the Ideal Step-Down Tools
+
+Not all exercise modalities are created equal for post-PT recovery. Yoga and Pilates share several properties that make them uniquely suited to this transition phase:
+
+**Controlled loading over a full range of motion.** PT exercises often work at the middle range — the safe, pain-free zone. Yoga and Pilates progressively challenge tissue at end range, which is where most functional breakdowns and re-injuries occur.
+
+**Proprioceptive retraining.** Balance and joint position sense are consistently disrupted after injury and surgery. Yoga's single-leg balancing postures and Pilates' unstable surface work directly target the proprioceptive system — something HEP programs almost never address adequately.
+
+**Breath-driven parasympathetic activation.** Chronic pain and post-surgical stress leave the nervous system in a low-grade threat state. Yoga's emphasis on diaphragmatic breathing actively down-regulates sympathetic tone, improving tissue circulation and reducing the inflammatory load that slows healing.
+
+**Progressive, bodyweight-based loading.** Unlike gym-based strength programs, yoga and Pilates require no equipment, impose minimal joint compression, and can be scaled to any level of function — from early post-operative to full return to sport.
+
+A 2016 study in the **International Journal of Yoga** (Polsgrove, Bower & Blocki) found that college athletes who completed a 10-week yoga supplementation program improved hamstring ROM by 20% and reduced balance errors by 22% — two of the most critical variables for injury prevention and return-to-sport readiness.
+
+---
+
+## The 4-Phase Step-Down Framework
+
+The following framework is a general guide. Always get clearance from your physical therapist or physician before beginning any new exercise program after injury or surgery. Individual progressions should be adjusted based on your diagnosis, surgical history, and functional baseline.
+
+---
+
+### Phase 1: Consolidation (Weeks 1–3 Post-Discharge)
+
+**Goal:** Maintain PT gains. Prevent deconditioning. Establish a consistent movement habit.
+
+In the first weeks after discharge, the priority is continuation, not progression. Your tissue is still remodeling. Your nervous system is still recalibrating. The work here is to show up — consistently, gently, and with attention to feedback from your body.
+
+**Recommended practices:**
+- Restorative yoga (30–45 min, 3x/week): Supported postures held for 2–5 minutes. Emphasis on passive hip and thoracic opening, diaphragmatic breath, and parasympathetic activation.
+- Pilates fundamentals (2x/week): The "original six" exercises — Hundred, Roll-Up, Single Leg Circle, Rolling Like a Ball, Single Leg Stretch, Double Leg Stretch — performed at minimum intensity with perfect form.
+- Daily HEP from your PT: Do not stop your home exercise program yet. Integrate it with your Pilates practice, not instead of it.
+
+**What to avoid:** High-intensity vinyasa, inversions, deep end-range loading of the affected joint, any movement that reproduces your pre-PT symptoms.
+
+---
+
+### Phase 2: Foundation Building (Weeks 4–8)
+
+**Goal:** Restore full functional range of motion. Begin progressive neuromuscular loading.
+
+By week four, most people feel nearly normal during daily activities. This is the most dangerous time — feeling good creates overconfidence. Phase 2 introduces progressive challenge while building the deeper structural resilience that protects against re-injury.
+
+**Recommended practices:**
+- Active yoga (45–60 min, 3–4x/week): Standing balance poses — Warrior III, Half Moon, Tree Pose — held progressively longer. Hip-opening sequences targeting the structures surrounding the previously injured area.
+- Pilates mat progression (3x/week): Add the Side Kick Series, Spine Twist, Swan Dive. Begin loaded single-leg work — Side-Lying Leg Series, Standing Footwork with resistance.
+- Breathwork protocol (daily, 5–10 min): Box breathing or 4-7-8 breathing to manage post-injury sympathetic upregulation and support sleep quality.
+
+**Key marker for Phase 2 readiness:** You can perform your PT discharge exercises without compensatory movement patterns.
+
+---
+
+### Phase 3: Load Tolerance (Weeks 9–16)
+
+**Goal:** Demonstrate full load tolerance through functional range. Begin return-to-activity progression if applicable.
+
+This phase is where most people begin to feel genuinely recovered. Range of motion has largely returned, strength imbalances are narrowing, and confidence in the affected area is rebuilding. The work here is to stress the system sufficiently that the rebuilt tissue matures under load — a process called **mechanotransduction**.
+
+**Recommended practices:**
+- Dynamic yoga (60 min, 4x/week): Full vinyasa sequences, deeper hip openers, twists, and backbends appropriate to your injury. Begin exploring inversions if cleared.
+- Pilates intermediate progression (3x/week): Teaser, Corkscrew, Swimming, Push-Up Series. Add Reformer work if available.
+- Sport-specific supplementation: If returning to a sport, integrate yoga sequences that mimic the dominant movement patterns — rotational yoga for golfers and baseball players, single-leg stability work for runners and soccer players, overhead mobility for swimmers and volleyball athletes.
+
+**Key marker for Phase 3 readiness:** Single-leg balance on the affected limb is within 5–10% of the unaffected side. No pain or apprehension during loaded end-range movement.
+
+---
+
+### Phase 4: Maintenance & Performance (Week 17+)
+
+**Goal:** Sustain function. Prevent re-injury. Optimize performance.
+
+This is not the end of the program — it is the beginning of a permanent movement practice. Research consistently shows that the injury risk reduction achieved during rehabilitation is only maintained with ongoing physical practice. Phase 4 is simply what the rest of your athletic life looks like.
+
+**Recommended ongoing practice:**
+- Yoga or Pilates 2–3x/week, ongoing
+- One session dedicated to mobility and recovery, one to strength and control
+- Annual reassessment with a qualified instructor to identify compensatory patterns before they become injuries
+
+---
+
+## Key Movement Patterns to Prioritize After PT
+
+Regardless of your specific injury, most post-PT programs share common movement deficits that yoga and Pilates address directly:
+
+**Hip flexor lengthening.** Immobility during recovery shortens the iliopsoas — a root cause of low back pain, anterior knee pain, and hip impingement. Low Lunge, Lizard Pose, and Pilates Hip Flexor Stretch address this directly.
+
+**Posterior chain activation.** Glutes and hamstrings disengage quickly during periods of reduced loading. Bridge progressions, Warrior III holds, and Pilates Leg Pull Front rebuild this foundation.
+
+**Thoracic rotation.** Nearly every upper-extremity and lower-extremity injury results in compensatory thoracic stiffness. Thread-the-Needle, Supine Twist, and Pilates Spine Twist restore the rotation necessary for pain-free gait, overhead movement, and athletic performance.
+
+**Foot and ankle proprioception.** Often overlooked after lower-extremity injuries. Tree Pose progressions on unstable surfaces, Pilates Footwork on the Reformer, and Toe Spread exercises rebuild the sensorimotor foundation from the ground up.
+
+---
+
+## Signs You're Ready to Progress vs. Signs to Slow Down
+
+**Progress when:**
+- You complete your current phase exercises without compensation or fatigue
+- The affected area feels symmetrical to the unaffected side
+- Your PT or physician has cleared the next level of activity
+- You've maintained your current phase for the minimum recommended duration
+
+**Slow down or consult your provider when:**
+- Any movement reproduces your original injury symptoms
+- You notice swelling, warmth, or increased stiffness the day after practice
+- Your balance or strength seems to be declining rather than improving
+- You feel anxious or apprehensive about loading the affected area
+
+These signals are information, not failure. They are your nervous system communicating tissue readiness — and a good instructor knows how to read them.
+
+---
+
+## Private, In-Home Step-Down Sessions in the Brazos Valley
+
+The gap between physical therapy discharge and full recovery is real, it's common, and it's entirely addressable with the right guidance.
+
+Neon Fox offers private, in-home yoga and Pilates sessions designed specifically for individuals in post-PT transition. Every session is built around your injury history, your PT discharge program, and your personal goals — whether that's returning to recreational sports, managing a chronic condition, or simply moving without pain.
+
+We serve College Station, Bryan, and the greater Brazos Valley — and we bring everything to your home. No gym membership. No commute. No generic class programming that ignores the reason you're there.
+
+If you're recently discharged from physical therapy — or if you finished PT months ago and still don't feel right — this is exactly what we do.
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

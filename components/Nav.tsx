@@ -27,9 +27,14 @@ export function Nav() {
         {/* Brand */}
         <Link href="/" className="flex items-center gap-0 shrink-0">
           <Image src={logo} alt="Neon Fox" width={102} height={102} className="h-[72px] w-[72px] object-contain" />
-          <span className="text-3xl font-black tracking-widest uppercase text-white leading-none">
-            Neon Fox
-          </span>
+          <div className="flex flex-col leading-none">
+            <span className="text-3xl font-black tracking-widest uppercase text-white leading-none">
+              Neon Fox
+            </span>
+            <span className="text-[11px] font-medium tracking-[0.2em] uppercase text-[#2F4F4F] mt-1">
+              Mobility &amp; Recovery
+            </span>
+          </div>
         </Link>
 
         {/* Desktop nav */}
