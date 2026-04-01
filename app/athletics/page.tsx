@@ -178,7 +178,7 @@ const services = [
     name: "Team Seasonal Contract",
     tag: "Full Roster Coverage",
     tagBg: "bg-[#800000] text-white",
-    price: "Starting at $1,800",
+    price: "Starting at $1,500",
     period: "/ month",
     description:
       "Weekly on-site recovery sessions woven directly into your existing training block. Pre-season assessment, in-season maintenance, and post-season recovery phases are planned in advance with your S&C staff.",
@@ -198,7 +198,7 @@ const services = [
     name: "Elite Prep — 1-on-1",
     tag: "Draft & Return-to-Play",
     tagBg: "bg-slate-800 text-slate-200",
-    price: "Starting at $175",
+    price: "Starting at $135",
     period: "/ session",
     description:
       "Private concierge coaching for athletes preparing for the NFL or Pro Draft, post-op return-to-play programming, or elite individual performance optimization. Sessions are conducted at the athlete's location.",
@@ -218,7 +218,7 @@ const services = [
     name: "Club Sports Power-Pack",
     tag: "High-Efficiency Group",
     tagBg: "bg-[#36454F] text-slate-100",
-    price: "Starting at $450",
+    price: "Starting at $400",
     period: "/ session",
     description:
       "Purpose-built for TAMU club programs — Rugby, Lacrosse, Soccer, and others. High-efficiency 60-minute group sessions scaled for club rosters, with 4-session minimum blocks that drive real adaptation.",
