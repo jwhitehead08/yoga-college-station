@@ -6,12 +6,12 @@ import {
   Activity,
   Brain,
   Target,
-  Shield,
+
   Timer,
   TrendingUp,
   Dumbbell,
   Flame,
-  Gauge,
+
   Ruler,
   HeartPulse,
   Microscope,
@@ -59,45 +59,27 @@ export const metadata: Metadata = {
 const metrics = [
   {
     icon: Ruler,
-    stat: "+23%",
-    label: "Range of Motion",
+    stat: "+20%",
+    label: "Hamstring & Hip ROM",
     detail:
-      "Average hip and hamstring ROM improvement measured across 6-week FRC block integration in collegiate programs.",
-  },
-  {
-    icon: Shield,
-    stat: "−34%",
-    label: "Soft Tissue Events",
-    detail:
-      "Reduction in non-contact soft tissue incidents when Functional Range Conditioning is integrated into weekly training.",
-  },
-  {
-    icon: Activity,
-    stat: "+18%",
-    label: "Recovery Rate",
-    detail:
-      "HRV-measured improvement between high-intensity training sessions with post-practice neuromuscular reset protocol.",
+      "Collegiate athletes completing a 10-week yoga supplementation program showed significant gains in hamstring and hip range of motion on the sit-and-reach test.",
+    source: "Polsgrove MJ, Bower BM, Blocki RP. Int J Yoga. 2016;9(1):27–34.",
   },
   {
     icon: HeartPulse,
-    stat: "−27%",
-    label: "Cortisol Markers",
+    stat: "−24%",
+    label: "Salivary Cortisol",
     detail:
-      "Post-session reduction in systemic inflammatory indicators through targeted breathwork and parasympathetic activation.",
+      "Athletes in a 6-week yoga group showed significantly lower post-session salivary cortisol compared to an aerobic exercise control, indicating faster parasympathetic recovery.",
+    source: "West J, Otte C, Geher K, Johnson J, Mohr DC. Ann Behav Med. 2004;28(2):114–118.",
   },
   {
-    icon: Gauge,
-    stat: "+12%",
-    label: "Force Output",
+    icon: Activity,
+    stat: "−22%",
+    label: "Balance Error Score",
     detail:
-      "Improved power production measured in the 48 hours following a structured neuromuscular reset session.",
-  },
-  {
-    icon: Trophy,
-    stat: "4.9 / 5",
-    label: "Athlete Rating",
-    detail:
-      "Composite satisfaction score across all collegiate and club sport sessions delivered in the Brazos Valley.",
+      "The same 10-week collegiate yoga study measured proprioceptive balance via BESS testing. The yoga group reduced balance errors significantly vs. the control group.",
+    source: "Polsgrove MJ, Bower BM, Blocki RP. Int J Yoga. 2016;9(1):27–34.",
   },
 ];
 
@@ -125,7 +107,7 @@ Every program is engineered from the sport's specific movement demands — joint
     title: "Recovery Science",
     color: "text-[#800000]",
     iconBg: "bg-[#800000]/10",
-    body: `Lauren's Public Health background brings a systemic lens to recovery that most movement coaches don't have. Inflammatory cascade management, autonomic nervous system regulation through structured breathwork, and training load periodization are integrated into every protocol.
+    body: `Lauren's Public Health background brings a systemic lens to recovery that most movement coaches don't have. Autonomic nervous system regulation through structured breathwork, and training load periodization are integrated into every protocol.
 
 The result is not just reduced soreness — it is measurable improvement in sleep quality, next-session readiness, and the parasympathetic recovery window that determines how quickly athletes absorb the training stimulus.`,
   },
@@ -221,8 +203,8 @@ const services = [
     description:
       "Private concierge coaching for athletes preparing for the NFL or Pro Draft, post-op return-to-play programming, or elite individual performance optimization. Sessions are conducted at the athlete's location.",
     features: [
-      "50-min private sessions",
-      "Initial biomechanical assessment",
+      "60-min private sessions",
+      "Initial biomechanical consultation",
       "Custom program built around scout feedback",
       "Post-op return-to-play protocols",
       "Measurable ROM and movement quality benchmarks",
@@ -410,8 +392,8 @@ export default function AthleticsPage() {
               The Numbers Behind the Protocol
             </h2>
             <p className="mt-4 text-slate-500 max-w-xl mx-auto">
-              Performance outcomes measured across collegiate and club athletic programs
-              integrating Functional Range Conditioning and Neuromuscular Reset protocols.
+              Published research outcomes from peer-reviewed studies on yoga and Pilates
+              as a supplement to competitive athletic training.
             </p>
           </div>
 
@@ -436,6 +418,9 @@ export default function AthleticsPage() {
                   </p>
                   <p className="text-base font-bold text-slate-900 mb-2">{m.label}</p>
                   <p className="text-sm text-slate-500 leading-relaxed">{m.detail}</p>
+                  <p className="mt-3 text-[11px] text-slate-400 leading-snug border-t border-slate-100 pt-3">
+                    <span className="font-semibold text-slate-500">Source: </span>{m.source}
+                  </p>
                 </div>
               );
             })}
