@@ -2,59 +2,60 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Priya R.",
-    role: "Grad Student",
-    company: "Texas A&M University",
+    name: "Marcus T.",
+    role: "Ironman Triathlete",
+    company: "",
     quote:
-      "The pop-up at Blackwater Draw was the best Thursday I've had in College Station. Totally inclusive, super fun, and the instructor made everyone feel welcome. Already have the next one on my calendar.",
-    rating: 5,
-    segment: "Event",
-  },
-  {
-    name: "Derek L.",
-    role: "VP of Operations",
-    company: "Bryan-area logistics firm",
-    quote:
-      "I had chronic lower-back pain from 10+ years of desk work. After six private sessions in my home, I'm back to running. Zero gimmicks — pure functional movement work.",
+      "I was hitting a wall with hip impingement during my long rides. Integrating these recovery sessions changed the game. I’m back to full-power climbs with zero pinching—it’s the missing piece of my training block.",
     rating: 5,
     segment: "Private",
   },
   {
-    name: "Melissa K.",
-    role: "Real Estate Agent",
-    company: "Brazos Valley Realty",
+    name: "Sarah J.",
+    role: "Software Architect",
+    company: "",
     quote:
-      "As someone who drives all day showing properties across Bryan and College Station, the concierge sessions have been worth every penny. My hip pain is essentially gone.",
+      "Years of 10-hour days at a desk left my posture wrecked and my neck constantly tight. The mobility training I'm doing has been a revelation. I'm finishing workdays without that 'compressed' feeling.",
+    rating: 5,
+    segment: "Corporate",
+  },
+  {
+    name: "Elena G.",
+    role: "Marathoner",
+    company: "",
+    quote:
+      "As an older runner, I thought chronic calf tightness was just my new normal. These sessions taught me how to actually prime my nervous system and recover effectively. I'm running high mileage again and feeling remarkably springy.",
     rating: 5,
     segment: "Private",
   },
-  {
-    name: "Carlos V.",
-    role: "Co-Founder",
-    company: "CS craft brewery",
-    quote:
-      "Hosting the pop-up was a no-brainer. Our taproom was packed on a Wednesday. Great for community, great for business. We're already booking the next three dates.",
-    rating: 5,
-    segment: "Event",
-  },
-  {
-    name: "Tanisha W.",
-    role: "Remote UX Designer",
-    company: "College Station",
-    quote:
-      "Working from home meant I stopped moving entirely. The private sessions come to my living room — I've done them in pajamas. Life-changing is not an overstatement.",
-    rating: 5,
-    segment: "Private",
-  },
-  {
-    name: "Jess & Marco",
-    role: "Local Residents",
-    company: "Southwood Valley, CS",
-    quote:
-      "We do the pop-ups together every month. It's become our date night. The vibe is so good — not intimidating at all, even for a total beginner like me.",
-    rating: 5,
-    segment: "Event",
-  },
+
+  // {
+  //   name: "Carlos V.",
+  //   role: "Co-Founder",
+  //   company: "CS craft brewery",
+  //   quote:
+  //     "Hosting the pop-up was a no-brainer. Our taproom was packed on a Wednesday. Great for community, great for business. We're already booking the next three dates.",
+  //   rating: 5,
+  //   segment: "Event",
+  // },
+  // {
+  //   name: "Tanisha W.",
+  //   role: "Remote UX Designer",
+  //   company: "College Station",
+  //   quote:
+  //     "Working from home meant I stopped moving entirely. The private sessions come to my living room — I've done them in pajamas. Life-changing is not an overstatement.",
+  //   rating: 5,
+  //   segment: "Private",
+  // },
+  // {
+  //   name: "Jess & Marco",
+  //   role: "Local Residents",
+  //   company: "Southwood Valley, CS",
+  //   quote:
+  //     "We do the pop-ups together every month. It's become our date night. The vibe is so good — not intimidating at all, even for a total beginner like me.",
+  //   rating: 5,
+  //   segment: "Event",
+  // },
 ];
 
 const segmentColors: Record<string, string> = {
@@ -65,7 +66,7 @@ const segmentColors: Record<string, string> = {
 const stats = [
   { value: "1000+", label: "Sessions Delivered" },
   // { value: "15+", label: "Brazos Valley Venues" },
-  { value: "4.9★", label: "Average Rating" },
+  // { value: "4.9★", label: "Average Rating" },
   { value: "3 yrs", label: "Serving Brazos Valley" },
   { value: "20 yrs", label: "Health & Fitness" },
 ];
@@ -99,7 +100,7 @@ export function TrustSignals() {
             From Your Neighbors in the Brazos Valley
           </h2>
           <p className="mt-4 text-slate-500 max-w-xl mx-auto">
-            Real clients from Bryan, College Station, and across the Brazos Valley sharing
+            Real clients sharing
             what consistent mobility work has done for them.
           </p>
         </div>
