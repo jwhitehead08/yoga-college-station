@@ -88,9 +88,10 @@ export function AthleticsContactForm() {
             id="audit-heading"
             className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white"
           >
-            Request a Biomechanical
+            Request a Team Audit
+            {/* Request a Biomechanical
             <br />
-            Team Audit
+            Team Audit */}
           </h2>
           <p className="mt-4 text-red-100/80 max-w-md mx-auto text-sm leading-relaxed">
             Tell us about your program and we&apos;ll respond within one business

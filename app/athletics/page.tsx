@@ -756,7 +756,7 @@ export default function AthleticsPage() {
       </section>
 
       {/* ── SOCIAL PROOF STRIP ────────────────────────────── */}
-      <section className="bg-[#0a0a0a] py-14 px-4 sm:px-6 lg:px-8 border-y border-white/5">
+      {/* <section className="bg-[#0a0a0a] py-14 px-4 sm:px-6 lg:px-8 border-y border-white/5">
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-xs font-semibold uppercase tracking-widest text-[#800000] mb-6">
             Trusted by Brazos Valley Programs
@@ -792,7 +792,7 @@ export default function AthleticsPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ── FORM ──────────────────────────────────────────── */}
       <AthleticsContactForm />
@@ -802,12 +802,11 @@ export default function AthleticsPage() {
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-xs text-slate-400 leading-relaxed">
             Neon Fox provides{" "}
-            <strong className="text-slate-600">high-performance recovery in College Station</strong>,{" "}
-            <strong className="text-slate-600">athlete recovery programs in Bryan TX</strong>, and{" "}
-            <strong className="text-slate-600">injury prevention services for Texas A&amp;M</strong>{" "}
+            <strong className="text-slate-600">high-performance recovery in College Station/Bryan and</strong>{" "}
+            <strong className="text-slate-600">injury prevention services for </strong>{" "}
             athletics and club programs. Our{" "}
-            <strong className="text-slate-600">biomechanical mobility coaching</strong>{" "}
-            is led by a former TAMU Anatomy Lab Instructor with dual Master&apos;s degrees in
+            <strong className="text-slate-600"> mobility & recovery coaching</strong>{" "}
+            is led by Lauren Whitehead who is 200-Hour Registered Yoga Teacher, Certified Personal Trainer, certified in Pilates and Barre and holds dual Master&apos;s degrees in
             Biology and Public Health. Serving the Brazos Valley since 2023.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-5 text-xs">

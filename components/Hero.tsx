@@ -83,12 +83,12 @@ export function Hero() {
 
         {/* Social proof strip */}
         <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-slate-400">
-          <span className="flex items-center gap-1">
+          {/* <span className="flex items-center gap-1">
             <Star className="h-4 w-4 fill-amber-400 text-amber-400" />
             <strong className="text-slate-700">4.9</strong> avg rating
-          </span>
-          <span className="hidden sm:block w-px h-4 bg-slate-200" />
-          <span>200+ sessions delivered</span>
+          </span> */}
+          {/* <span className="hidden sm:block w-px h-4 bg-slate-200" /> */}
+          <span>1000+ sessions delivered</span>
           <span className="hidden sm:block w-px h-4 bg-slate-200" />
           <span>Serving Brazos Valley since 2023</span>
         </div>
