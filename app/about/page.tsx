@@ -375,7 +375,7 @@ export default function AboutPage() {
                     Jeff Whitehead
                   </h3>
                   <p className="text-slate-400 text-sm mt-0.5">
-                    RYT-200 · Software Engineer · Co-Founder, Greenbird Fitness
+                    RYT-200 · Co-Founder, Greenbird Fitness
                   </p>
                 </div>
               </div>

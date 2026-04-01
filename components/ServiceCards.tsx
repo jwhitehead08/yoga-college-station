@@ -11,7 +11,7 @@ const services = [
     title: "Private In-Home Sessions",
     subtitle: "Your space. Your pace.",
     description:
-      "A certified mobility coach comes to your College Station or Bryan home and builds a session entirely around you — your posture, your pain points, your fitness goals. No mirrors, no judgment, no 6am classes.",
+      "A certified mobility coach comes to your College Station or Bryan home and builds a session entirely around you — your posture, your pain points, your fitness goals. No commute, no judgment - just movement.",
     features: [
       { icon: Clock, text: "60-min private sessions" },
       { icon: MapPin, text: "Home visits across Brazos Valley" },
@@ -85,7 +85,7 @@ export function ServiceCards() {
             Two Ways to Practice
           </h2>
           <p className="mt-4 text-slate-500 max-w-xl mx-auto">
-            Whether you want a deeply personal session in your Bryan or College Station
+            Whether you want a tailored session in your Bryan or College Station
             home, or a fun community class at a local venue — we've got you.
           </p>
         </div>

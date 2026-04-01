@@ -334,7 +334,7 @@ export default function AthleticsPage() {
             <p className="text-lg sm:text-xl text-slate-400 leading-relaxed max-w-2xl mb-8">
               University-grade movement science designed to keep your starters
               on the field — and optimize peak performance when it matters most.
-              Not yoga. <span className="text-white font-medium">Performance science.</span>
+              Not just yoga. <span className="text-white font-medium">Evidence based recovery & mobility.</span>
             </p>
 
             {/* Credential bar */}
