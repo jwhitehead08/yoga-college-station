@@ -62,8 +62,8 @@ export function Hero() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-transparent" />
         {/* Overlaid headline */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-10 pb-8">
-          <p className="text-xs font-semibold uppercase tracking-widest text-white mb-4">
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-10 pt-8 pb-8">
+          <p className="text-xs font-semibold uppercase tracking-wide sm:tracking-widest text-white mb-4 px-4 text-center break-words">
             Brazos Valley's High-Performance Recovery
           </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight drop-shadow-lg">
