@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
 
   const { error } = await resend.emails.send({
     from: "Neon Fox <onboarding@resend.dev>",
-    to: "jwhitehead08@gmail.com",
+    to: "neonfoxmethod@gmail.com",
     replyTo: email,
     subject: `New Inquiry — ${name} (${segment || "General"})`,
     text: [
