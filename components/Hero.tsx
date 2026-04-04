@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { User, CalendarDays, ArrowRight, Star } from "lucide-react";
-import heroBg from "@/app/assets/gb.png";
 
 const segments = [
   {
@@ -52,10 +51,10 @@ export function Hero() {
       <div className="relative w-full aspect-[16/7] overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-1 bg-[#800000] z-10" />
         <Image
-          src={heroBg}
-          alt="Neon Fox yoga session"
+          src="/j-reverse-warrior.jpg"
+          alt="Jeff Whitehead in reverse warrior pose at Ellis Field, Texas A&M"
           fill
-          className="object-cover object-top"
+          className="object-cover object-center"
           priority
         />
         {/* Dark scrim for text legibility */}

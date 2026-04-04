@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Inter } from "next/font/google";
 import {
   ArrowRight,
@@ -288,8 +289,14 @@ export default function AboutPage() {
             {/* ── LAUREN ── */}
             <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
               <div className="bg-[#1A1A1A] px-8 py-10 flex items-end gap-6">
-                <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl bg-[#800000] text-white text-2xl font-black">
-                  LW
+                <div className="h-20 w-20 shrink-0 rounded-2xl overflow-hidden border-2 border-[#800000]">
+                  <Image
+                    src="/lauren-headshot.jpg"
+                    alt="Lauren Whitehead"
+                    width={80}
+                    height={80}
+                    className="h-full w-full object-cover object-top"
+                  />
                 </div>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-widest text-[#800000] mb-1">
@@ -299,7 +306,7 @@ export default function AboutPage() {
                     Lauren Whitehead
                   </h3>
                   <p className="text-slate-400 text-sm mt-0.5">
-                    MS Biology · Former TAMU Anatomy Lab Instructor
+                    MS Biology · MPH Public Health · Certified Personal Trainer (CPT)
                   </p>
                 </div>
               </div>
@@ -364,8 +371,14 @@ export default function AboutPage() {
             {/* ── JEFF ── */}
             <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
               <div className="bg-[#1A1A1A] px-8 py-10 flex items-end gap-6">
-                <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl bg-[#36454F] text-white text-2xl font-black">
-                  JW
+                <div className="h-20 w-20 shrink-0 rounded-2xl overflow-hidden border-2 border-[#2F4F4F]">
+                  <Image
+                    src="/jeff-headshot.jpg"
+                    alt="Jeff Whitehead"
+                    width={80}
+                    height={80}
+                    className="h-full w-full object-cover object-top"
+                  />
                 </div>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-widest text-slate-400 mb-1">

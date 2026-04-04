@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Building2,
   Clock,
@@ -158,8 +159,8 @@ export default function CorporatePage() {
     <>
       {/* Hero */}
       <section className="bg-slate-900 py-20 px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-7xl">
-          <div className="max-w-3xl">
+        <div className="mx-auto max-w-7xl flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+          <div className="flex-1 max-w-3xl lg:max-w-none">
             <div className="flex items-center gap-2 mb-5">
               <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#800000] text-white">
                 <Building2 className="h-5 w-5" />
@@ -192,6 +193,25 @@ export default function CorporatePage() {
               >
                 See Program Formats
               </Link>
+            </div>
+          </div>
+
+          {/* Hero image */}
+          <div className="hidden lg:block shrink-0 w-[340px] xl:w-[380px]">
+            <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+              <Image
+                src="/j-twist.jpg"
+                alt="Jeff Whitehead in a seated spinal twist at Kyle Field plaza, Texas A&M"
+                width={380}
+                height={480}
+                className="w-full object-cover object-center"
+                priority
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-5 py-4">
+                <p className="text-xs font-semibold uppercase tracking-widest text-white/70">
+                  Kyle Field Plaza · College Station
+                </p>
+              </div>
             </div>
           </div>
         </div>

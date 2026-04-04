@@ -28,18 +28,18 @@ const plans = [
     badge: "Most Requested",
     badgeBg: "bg-slate-900 text-white",
   },
-  {
-    id: "events",
-    name: "Pop-Up Events",
-    tagline: "Community drop-in sessions",
+    {
+    id: "group",
+    name: "Group Sessions",
+    tagline: "Group session, at your location",
     pricePrefix: "Starting at",
-    price: "$20",
-    priceSuffix: "/ person",
+    price: "$350",
+    priceSuffix: "/ session",
     description:
-      "Join a community session at a local College Station venue, or book a private group event for friends, coworkers, or a special occasion.",
+      "Book a private group event for friends, coworkers, or a special occasion.",
     features: [
-      "Drop-in community sessions",
       "All fitness levels welcome",
+      "Team Recovery Sessions",
       "Brazos Valley venue partnerships",
       "Private group bookings available",
       "Great for birthdays & team outings",
@@ -53,6 +53,31 @@ const plans = [
     badge: null,
     badgeBg: "",
   },
+  // {
+  //   id: "events",
+  //   name: "Pop-Up Events",
+  //   tagline: "Community drop-in sessions",
+  //   pricePrefix: "Starting at",
+  //   price: "$20",
+  //   priceSuffix: "/ person",
+  //   description:
+  //     "Join a community session at a local College Station venue, or book a private group event for friends, coworkers, or a special occasion.",
+  //   features: [
+  //     "Drop-in community sessions",
+  //     "All fitness levels welcome",
+  //     "Brazos Valley venue partnerships",
+  //     "Private group bookings available",
+  //     "Great for birthdays & team outings",
+  //     "Monthly event calendar",
+  //   ],
+  //   cta: "Check Availability",
+  //   href: "#contact",
+  //   highlight: false,
+  //   border: "border-amber-200",
+  //   btnClass: "bg-amber-500 hover:bg-amber-600 text-white",
+  //   badge: null,
+  //   badgeBg: "",
+  // },
 ] as const;
 
 export function Pricing() {

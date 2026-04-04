@@ -37,7 +37,7 @@ const services = [
       { icon: Users, text: "Open to all fitness levels" },
       { icon: MapPin, text: "Recovery & Mobility straight to your Group" },
     ],
-    cta: "View Local Calendar",
+    cta: "Check Availability",
     href: "#contact",
     border: "border-amber-200 hover:border-amber-400",
     ctaClass: "bg-amber-500 hover:bg-amber-600 text-white",

@@ -22,6 +22,7 @@ import {
   CheckCircle,
   Trophy,
 } from "lucide-react";
+import Image from "next/image";
 import { AthleticsContactForm } from "@/components/AthleticsContactForm";
 import { AuditFormLink } from "@/components/AuditFormLink";
 
@@ -292,8 +293,8 @@ export default function AthleticsPage() {
           }}
         />
 
-        <div className="relative mx-auto max-w-7xl">
-          <div className="max-w-4xl">
+        <div className="relative mx-auto max-w-7xl flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+          <div className="flex-1 max-w-4xl lg:max-w-none">
             {/* Badge row */}
             <div className="flex flex-wrap items-center gap-3 mb-7">
               <span className="inline-flex items-center gap-1.5 bg-[#800000] px-3 py-1 rounded-full text-xs font-bold text-white uppercase tracking-widest">
@@ -350,6 +351,25 @@ export default function AthleticsPage() {
                 <FileText className="h-4 w-4" />
                 Download Performance Deck
               </Link> */}
+            </div>
+          </div>
+
+          {/* Hero image */}
+          <div className="hidden lg:block shrink-0 w-[340px] xl:w-[400px]">
+            <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+              <Image
+                src="/l-twist.jpg"
+                alt="Lauren Whitehead — side plank at Ellis Field, Texas A&M"
+                width={400}
+                height={560}
+                className="w-full object-cover object-top"
+                priority
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-5 py-4">
+                <p className="text-xs font-semibold uppercase tracking-widest text-white/70">
+                  Ellis Field · Texas A&M
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -434,9 +454,14 @@ export default function AthleticsPage() {
           {/* Lauren callout */}
           <div className="bg-[#800000]/10 border border-[#800000]/30 rounded-2xl p-6 sm:p-8 mb-14">
             <div className="flex flex-col sm:flex-row items-start gap-5">
-              <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-[#800000] text-white text-xl font-bold"
-                style={{ fontFamily: "var(--font-playfair)" }}>
-                LW
+              <div className="h-16 w-16 shrink-0 rounded-2xl overflow-hidden border-2 border-[#800000]">
+                <Image
+                  src="/lauren-headshot.jpg"
+                  alt="Lauren Whitehead"
+                  width={64}
+                  height={64}
+                  className="h-full w-full object-cover object-top"
+                />
               </div>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-widest text-[#800000] mb-2">
