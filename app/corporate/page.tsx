@@ -309,7 +309,7 @@ export default function CorporatePage() {
       </section>
 
       {/* Testimonials */}
-      <section className="bg-white py-20 px-4 sm:px-6 lg:px-8">
+      {/* <section className="bg-white py-20 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <p className="text-xs font-semibold uppercase tracking-widest text-[#800000] mb-3">
@@ -344,7 +344,7 @@ export default function CorporatePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Pricing */}
       <section className="bg-slate-50 py-20 px-4 sm:px-6 lg:px-8">
