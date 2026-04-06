@@ -185,7 +185,7 @@ const services = [
       "Weekly on-site recovery sessions woven directly into your existing training block. Pre-season assessment, in-season maintenance, and post-season recovery phases are planned in advance with your S&C staff.",
     features: [
       "4 on-site sessions per month",
-      "Up to 60 athletes per session",
+      // "Up to 60 athletes per session",
       "Pre-season movement screening",
       "Sport-specific curriculum",
       "Monthly performance report to coaching staff",
@@ -225,7 +225,7 @@ const services = [
       "Purpose-built for TAMU club programs — Rugby, Lacrosse, Soccer, and others. High-efficiency 60-minute group sessions scaled for club rosters, with 4-session minimum blocks that drive real adaptation.",
     features: [
       "60-min group sessions",
-      "Up to 30 athletes",
+      // "Up to 30 athletes",
       "Sport-specific movement curriculum",
       "4-session minimum block",
       "Schedule around existing practice calendar",
