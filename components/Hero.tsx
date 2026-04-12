@@ -63,12 +63,12 @@ export function Hero() {
         {/* Overlaid headline */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-10 pt-8 pb-8">
           <p className="text-xs font-semibold uppercase tracking-wide sm:tracking-widest text-white mb-4 px-4 text-center break-words">
-            Brazos Valley's High-Performance Recovery
+            College Station &amp; Bryan, TX — Mobile Yoga &amp; Mobility Concierge
           </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight drop-shadow-lg">
-            Elite Recovery That
+            Elite Mobility &amp; Recovery —
             <br />
-            <span className="text-[#800000]">Comes to You.</span>
+            <span className="text-[#800000]">College Station, TX.</span>
           </h1>
         </div>
       </div>

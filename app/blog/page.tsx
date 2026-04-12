@@ -4,13 +4,22 @@ import { getAllPosts } from "@/lib/posts";
 import { ArrowRight, Clock, Tag } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Yoga & Wellness Blog | Neon Fox — College Station, TX",
+  title: "Yoga & Mobility Blog | Neon Fox — College Station, TX",
   description:
-    "Local yoga guides, mobility tips, and high-performance recovery resources for College Station, Bryan, and Brazos Valley residents. Written by Neon Fox's certified coaches.",
+    "Yoga, Pilates & mobility guides for College Station and Bryan, TX. Athletic recovery tips, local outdoor resources, and wellness content from Neon Fox coaches.",
+  keywords: [
+    "Yoga College Station",
+    "Mobility College Station",
+    "Mat Pilates College Station",
+    "Athletic Recovery Brazos Valley",
+    "in-home yoga Bryan TX",
+    "mobility tips College Station TX",
+  ],
   openGraph: {
-    title: "Yoga & Recovery Blog | Neon Fox — College Station, TX",
+    title: "Yoga & Mobility Blog — College Station, TX | Neon Fox",
     description:
-      "Practical yoga, Pilates, and high-performance recovery content for Brazos Valley residents — outdoor guides, desk health tips, and community resources.",
+      "Yoga, Pilates & mobility guides for College Station and Bryan, TX. Athletic recovery tips and local wellness resources from Neon Fox's certified coaches.",
+    url: "https://www.neonfoxmethod.com/blog",
   },
 };
 

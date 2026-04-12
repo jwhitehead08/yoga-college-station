@@ -24,21 +24,31 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title:
-    "About Neon Fox | Yoga • Pilates • High-Performance Recovery — Brazos Valley",
+    "About Neon Fox | Private Yoga & Mobility Coaching — College Station, TX",
   description:
-    "Neon Fox is the evolution of Austin's Greenbird Fitness — a mobile, high-performance recovery concierge bringing elite yoga, Pilates, and biomechanical recovery to College Station and Bryan, TX. Led by Lauren Whitehead, MS Biology.",
+    "Meet the team behind Neon Fox — mobile private yoga, Pilates & mobility coaching in College Station & Bryan, TX. Science-backed recovery led by Lauren Whitehead, MS Biology.",
   keywords: [
-    "Performance Recovery College Station",
-    "High-end Yoga Bryan TX",
-    "Mobile Pilates Brazos Valley",
-    "Neon Fox yoga College Station",
-    "Greenbird Fitness Austin evolution",
-    "Lauren Whitehead MS Biology yoga",
+    "Private Yoga College Station TX",
+    "Mobility Coaching College Station",
+    "In-home yoga Bryan TX",
+    "Athletic Recovery College Station",
+    "Mat Pilates College Station",
+    "Neon Fox College Station",
+    "Lauren Whitehead yoga instructor College Station",
   ],
   openGraph: {
-    title: "About Neon Fox | High-Performance Recovery — College Station, TX",
+    title: "About Neon Fox | Private Yoga & Mobility Coaching — College Station, TX",
     description:
-      "From Austin's Greenbird Fitness to Neon Fox — a mobile high-performance recovery concierge built on scientific rigor and elite boutique standards.",
+      "Science-backed mobile yoga, Pilates & mobility coaching in College Station & Bryan, TX. From Austin's Greenbird Fitness to Neon Fox — elite recovery delivered to your door.",
+    url: "https://www.neonfoxmethod.com/about",
+    images: [
+      {
+        url: "/lauren-headshot.jpg",
+        width: 800,
+        height: 800,
+        alt: "Lauren Whitehead, mobility coach and yoga instructor in College Station, TX",
+      },
+    ],
   },
 };
 
@@ -292,7 +302,7 @@ export default function AboutPage() {
                 <div className="h-20 w-20 shrink-0 rounded-2xl overflow-hidden border-2 border-[#800000]">
                   <Image
                     src="/lauren-headshot.jpg"
-                    alt="Lauren Whitehead"
+                    alt="Lauren Whitehead, RYT-200 yoga and mobility coach serving College Station and Bryan, TX"
                     width={80}
                     height={80}
                     className="h-full w-full object-cover object-top"
@@ -374,7 +384,7 @@ export default function AboutPage() {
                 <div className="h-20 w-20 shrink-0 rounded-2xl overflow-hidden border-2 border-[#2F4F4F]">
                   <Image
                     src="/jeff-headshot.jpg"
-                    alt="Jeff Whitehead"
+                    alt="Jeff Whitehead, RYT-200 yoga instructor and mobility coach in College Station, TX"
                     width={80}
                     height={80}
                     className="h-full w-full object-cover object-top"

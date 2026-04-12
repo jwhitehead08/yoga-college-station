@@ -6,13 +6,22 @@ import { Pricing } from "@/components/Pricing";
 import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Neon Fox | Yoga • Pilates • High-Performance Recovery — College Station, TX",
+  title: "Private Yoga & Mobility Coaching | Neon Fox — College Station, TX",
   description:
-    "Neon Fox is a mobile high-performance recovery concierge serving College Station, Bryan, and the Brazos Valley. Elite yoga, Pilates, and biomechanical recovery — delivered to your door.",
+    "Mobile private yoga, Mat Pilates & mobility coaching in College Station & Bryan, TX. In-home sessions for athletic recovery & personal wellness. Book today.",
   openGraph: {
-    title: "Neon Fox | Yoga · Pilates · High-Performance Recovery — College Station",
+    title: "Private Yoga & Mobility Coaching — College Station, TX | Neon Fox",
     description:
-      "Mobile high-performance recovery concierge for the Brazos Valley. Private sessions and pop-up events — no studio required.",
+      "Mobile private yoga, Mat Pilates & mobility coaching in College Station & Bryan, TX. No studio. Sessions delivered to your home or office in the Brazos Valley.",
+    url: "https://www.neonfoxmethod.com",
+    images: [
+      {
+        url: "/j-reverse-warrior.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Neon Fox — Private Yoga & Mobility Coaching in College Station, TX",
+      },
+    ],
   },
 };
 

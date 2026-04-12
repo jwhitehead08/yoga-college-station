@@ -116,9 +116,17 @@ export function ServiceCards() {
                 <p className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-4">
                   {s.subtitle}
                 </p>
-                <p className="text-sm text-slate-500 leading-relaxed mb-6">
+                <p className="text-sm text-slate-500 leading-relaxed mb-4">
                   {s.description}
                 </p>
+                <div className="flex gap-3 mb-2 text-xs font-semibold">
+                  <Link href="/about" className="text-[#800000] hover:underline">
+                    Meet the coaches →
+                  </Link>
+                  <Link href="/#pricing" className="text-slate-400 hover:text-slate-600 hover:underline">
+                    View pricing
+                  </Link>
+                </div>
 
                 <ul className="space-y-2.5 mb-6">
                   {s.features.map((f, i) => {

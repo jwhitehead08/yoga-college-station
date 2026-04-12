@@ -18,19 +18,28 @@ import { CorporateContactForm } from "@/components/CorporateContactForm";
 export const metadata: Metadata = {
   title: "Corporate Wellness Programs | Neon Fox — College Station & Bryan, TX",
   description:
-    "Neon Fox delivers on-site high-performance recovery and mobility programs for College Station businesses, Bryan employers, and Texas A&M departments. Professional. Sharp. Efficient.",
+    "On-site mobility & recovery programs for College Station and Bryan, TX businesses. Neon Fox brings yoga and Pilates directly to your office. Zero logistics on your end.",
   keywords: [
-    "Performance Recovery College Station",
-    "High-end Yoga Bryan TX",
-    "Mobile Pilates Brazos Valley",
-    "corporate wellness College Station",
+    "Mobility College Station",
+    "corporate wellness College Station TX",
     "on-site yoga Bryan TX",
-    "Neon Fox corporate programs",
+    "Athletic Recovery College Station",
+    "mobility coaching Brazos Valley",
+    "corporate yoga College Station",
   ],
   openGraph: {
-    title: "Neon Fox | Corporate Wellness Programs — Brazos Valley",
+    title: "Corporate Wellness Programs — College Station & Bryan, TX | Neon Fox",
     description:
-      "Neon Fox delivers structured high-performance recovery sessions for Brazos Valley teams. On-site, zero logistics, and proven to reduce desk-related pain and improve productivity.",
+      "On-site mobility & recovery programs for College Station and Bryan, TX businesses. Yoga and Pilates delivered to your office — zero logistics, measurable results.",
+    url: "https://www.neonfoxmethod.com/corporate",
+    images: [
+      {
+        url: "/j-twist.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Corporate mobility coaching in College Station, TX — Neon Fox",
+      },
+    ],
   },
   robots: { index: true, follow: true },
 };

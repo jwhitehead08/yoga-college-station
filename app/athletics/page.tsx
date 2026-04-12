@@ -35,24 +35,32 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "High-Performance Recovery | Neon Fox — Texas A&M & Brazos Valley Athletics",
+  title: "Athletic Recovery & Mobility Coaching | Neon Fox — College Station & Brazos Valley",
   description:
-    "Neon Fox delivers university-grade biomechanical recovery and high-performance injury prevention for TAMU athletics and Brazos Valley club sports. Led by a former A&M Anatomy Lab Instructor with MS Biology & Public Health.",
+    "Athletic recovery & mobility coaching in College Station & Brazos Valley. Sport-specific injury prevention for TAMU and club athletes. Science-led by a former A&M Anatomy Lab Instructor.",
   keywords: [
-    "Performance Recovery College Station",
-    "High-end Yoga Bryan TX",
-    "Mobile Pilates Brazos Valley",
-    "Neon Fox athletic recovery",
-    "high-performance recovery Texas A&M",
-    "athlete recovery Bryan TX",
+    "Athletic Recovery College Station",
+    "Athletic recovery Brazos Valley",
+    "Mobility College Station",
+    "Mobility Coaching College Station TX",
+    "sports performance recovery College Station",
     "injury prevention Brazos Valley",
     "biomechanical mobility coach College Station",
-    "sports performance recovery Brazos Valley",
+    "high-performance recovery Texas A&M",
   ],
   openGraph: {
-    title: "High-Performance Recovery | Neon Fox — Brazos Valley Athletics",
+    title: "Athletic Recovery & Mobility Coaching — College Station | Neon Fox",
     description:
-      "Neon Fox delivers Functional Range Conditioning and Neuromuscular Reset protocols for Aggie athletes — led by a former TAMU Anatomy Lab Instructor with MS Biology.",
+      "Sport-specific athletic recovery & mobility coaching in College Station & Brazos Valley. Science-backed injury prevention for TAMU and club athletes — delivered on-site.",
+    url: "https://www.neonfoxmethod.com/athletics",
+    images: [
+      {
+        url: "/l-twist.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Athletic recovery and mobility coaching in College Station, TX — Neon Fox",
+      },
+    ],
   },
   robots: { index: true, follow: true },
 };
@@ -307,11 +315,11 @@ export default function AthleticsPage() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-white leading-[1.05] mb-6 tracking-tight">
-              High-Performance
+              Athletic Recovery &amp;
               <br />
-              <span className="text-[#800000]">Recovery &amp; Injury</span>
+              <span className="text-[#800000]">Mobility Coaching —</span>
               <br />
-              Prevention.
+              College Station, TX.
             </h1>
 
             <p className="text-lg sm:text-xl text-slate-400 leading-relaxed max-w-2xl mb-8">
