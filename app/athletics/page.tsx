@@ -190,7 +190,7 @@ const services = [
     price: "Starting at $1,500",
     period: "/ month",
     description:
-      "Weekly on-site recovery sessions woven directly into your existing training block. Pre-season assessment, in-season maintenance, and post-season recovery phases are planned in advance with your S&C staff.",
+      "Weekly on-site recovery and mobility sessions woven directly into your existing training block. Pre-season assessment, in-season maintenance, and post-season recovery phases are planned in advance with your S&C staff.",
     features: [
       "4 on-site sessions per month",
       // "Up to 60 athletes per session",
@@ -210,7 +210,7 @@ const services = [
     price: "Starting at $135",
     period: "/ session",
     description:
-      "Private concierge coaching for athletes preparing for the NFL or Pro Draft, post-op return-to-play programming, or elite individual performance optimization. Sessions are conducted at the athlete's location.",
+      "Private concierge coaching for athletes at every level of the competitive ladder—from high school standouts and dedicated amateurs to those preparing for the NFL or Pro Draft. Whether you are navigating a post-op return-to-play protocol or seeking elite individual performance optimization, we bring professional-grade recovery and mobility programming directly to your location.",
     features: [
       "60-min private sessions",
       "Initial biomechanical consultation",
