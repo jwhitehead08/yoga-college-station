@@ -33,7 +33,7 @@ export function Nav() {
               Neon Fox
             </span>
             <span className="text-[11px] font-medium tracking-[0.2em] uppercase text-[#2F4F4F] mt-1">
-              Mobility &amp; Recovery
+             Yoga · Mobility · Recovery
             </span>
           </div>
         </Link>
