@@ -13,6 +13,7 @@ const navLinks = [
   // { label: "Pop-Up Events", href: "/#events" },
   { label: "Corporate", href: "/corporate" },
   { label: "Athletics", href: "/athletics" },
+  { label: "Kids Series", href: "/kids-yoga" },
   { label: "Blog", href: "/blog" },
   { label: "About", href: "/about" },
 ];

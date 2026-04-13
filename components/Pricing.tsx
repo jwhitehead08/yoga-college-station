@@ -11,9 +11,9 @@ const plans = [
     price: "$120",
     priceSuffix: "/ session",
     description:
-      "In-home mobility coaching tailored entirely to you. Packages of 5 or 10 sessions unlock the best rates in the Bryan and College Station area.",
+      "In-home Yoga, Pilates, Mobility, or Recovery coaching tailored entirely to you. Choose your discipline or blend them to fit your goals. Packages of 5 or 10 sessions unlock the best rates in the Bryan and College Station area.",
     features: [
-      "50-minute private sessions",
+      "60-minute private sessions",
       "Fully customized programming",
       "Home visits in CS & Bryan area",
       "Progress tracking & check-ins",

@@ -10,6 +10,7 @@ const footerLinks = {
   Programs: [
     { label: "Corporate Wellness", href: "/corporate" },
     { label: "Athletics & Recovery", href: "/athletics" },
+    { label: "Kids Yoga Summer Series", href: "/kids-yoga" },
   ],
   Learn: [
     { label: "Blog", href: "/blog" },
