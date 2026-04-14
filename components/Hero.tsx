@@ -48,7 +48,7 @@ export function Hero() {
   return (
     <section aria-label="Hero" className="bg-white">
       {/* Hero image with overlaid headline */}
-      <div className="relative w-full aspect-[16/7] overflow-hidden">
+      <div className="relative w-full aspect-[4/3] sm:aspect-[16/7] overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-1 bg-[#800000] z-10" />
         <Image
           src="/j-reverse-warrior.jpg"
@@ -61,7 +61,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-transparent" />
         {/* Overlaid headline */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-10 pt-8 pb-8">
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-10 pt-4 pb-4 sm:pt-8 sm:pb-8">
           <p className="text-xs font-semibold uppercase tracking-wide sm:tracking-widest text-white mb-4 px-4 text-center break-words">
             College Station &amp; Bryan, TX — Mobile Yoga &amp; Mobility Concierge
           </p>
