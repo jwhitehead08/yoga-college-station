@@ -67,7 +67,7 @@ export function CorporateContactForm() {
               We&apos;ll send a custom proposal to your inbox within one business day.
               Questions?{" "}
               <span className="text-[#800000] font-medium">
-                corporate@neonfox.com
+                neonfoxmethod@gmail.com
               </span>
             </p>
           </div>

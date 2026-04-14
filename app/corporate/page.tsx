@@ -53,7 +53,7 @@ const benefits = [
   {
     icon: Shield,
     title: "Reduced Workers' Comp Risk",
-    desc: "Musculoskeletal injuries are the #1 cost driver in workplace compensation claims. Preventive mobility work is significantly cheaper than reactive treatment.",
+    desc: "Musculoskeletal injuries are among the leading drivers of workplace compensation costs. Preventive mobility work can support a healthier, more resilient team — and a lighter claims burden.",
   },
   {
     icon: Users,

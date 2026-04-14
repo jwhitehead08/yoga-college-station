@@ -136,6 +136,9 @@ export function TrustSignals() {
             </div>
           ))}
         </div>
+        <p className="mt-8 text-center text-xs text-slate-400 leading-relaxed">
+          Individual results vary. Client testimonials reflect personal experience and do not constitute medical claims or guarantees of outcome.
+        </p>
       </div>
     </section>
   );

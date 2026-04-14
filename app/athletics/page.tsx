@@ -100,7 +100,7 @@ const clinicalEdge = [
     iconBg: "bg-red-50",
     body: `Before a hamstring tears, it compensates. Before a labrum tears, it guards. Our movement assessments identify these dysfunctional patterns in their pre-injury state — asymmetries in hip rotation, thoracic restrictions, ankle mobility deficits, and the subtle movement avoidances that precede structural failure.
 
-Lauren's anatomical training means she doesn't just observe movement; she identifies the underlying tissue and joint dynamics that produce it. The result is a proactive intervention model that catches compensations before they become diagnoses.`,
+Lauren's anatomical training means she doesn't just observe movement; she identifies the underlying tissue and joint dynamics that produce it. The result is a proactive intervention model that seeks to identify movement compensations before they lead to injury.`,
   },
   {
     icon: Microscope,
@@ -210,12 +210,12 @@ const services = [
     price: "Starting at $135",
     period: "/ session",
     description:
-      "Private concierge coaching for athletes at every level of the competitive ladder—from high school standouts and dedicated amateurs to those preparing for the NFL or Pro Draft. Whether you are navigating a post-op return-to-play protocol or seeking elite individual performance optimization, we bring professional-grade recovery and mobility programming directly to your location.",
+      "Private concierge coaching for athletes at every level of the competitive ladder—from high school standouts and dedicated amateurs to those preparing for the NFL or Pro Draft. Whether you are navigating post-surgery movement reintegration or seeking elite individual performance optimization, we bring professional-grade recovery and mobility programming directly to your location. Post-surgery clients are encouraged to work alongside their physician or physical therapist.",
     features: [
       "60-min private sessions",
       "Initial biomechanical consultation",
       "Custom program built around scout feedback",
-      "Post-op return-to-play protocols",
+      "Post-surgery movement reintegration",
       "Measurable ROM and movement quality benchmarks",
       "Priority scheduling — College Station & Bryan",
     ],
@@ -323,7 +323,7 @@ export default function AthleticsPage() {
             </h1>
 
             <p className="text-lg sm:text-xl text-slate-400 leading-relaxed max-w-2xl mb-8">
-              University-grade movement science designed to keep your starters
+              University-grade movement programming designed to keep your starters
               on the field — and optimize peak performance when it matters most.
               Not just yoga. <span className="text-white font-medium">Evidence based recovery & mobility.</span>
             </p>

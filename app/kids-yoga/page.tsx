@@ -127,7 +127,7 @@ export default function KidsYogaPage() {
           <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
             <span className="inline-flex items-center gap-1.5 bg-[#2F4F4F] px-3 py-1 rounded-full text-xs font-bold text-white uppercase tracking-widest">
               <Sun className="h-3 w-3" />
-              Summer 2025
+              Summer 2026
             </span>
             <span className="text-xs text-slate-500 uppercase tracking-widest">
               College Station, TX · Outdoor Series
@@ -393,7 +393,7 @@ export default function KidsYogaPage() {
       <section className="bg-[#1A1A1A] py-24 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-semibold uppercase tracking-widest text-[#2F4F4F] mb-4">
-            Summer 2025 · Limited Spots
+            Summer 2026 · Limited Spots
           </p>
           <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight mb-4">
             Reserve Your Child&apos;s Spot
@@ -414,7 +414,7 @@ export default function KidsYogaPage() {
               href="/#contact"
               className="group inline-flex items-center gap-2 rounded-full bg-[#2F4F4F] hover:bg-[#263f3f] px-7 py-3.5 text-sm font-bold text-white transition-all shadow-lg shadow-[#2F4F4F]/25"
             >
-              Register Now — Summer 2025
+              Register Now — Summer 2026
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </Link>
             <Link
