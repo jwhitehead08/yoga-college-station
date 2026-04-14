@@ -76,7 +76,7 @@ export function Hero() {
       {/* Sub-copy */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 pb-10 text-center">
         <p className="mt-5 max-w-2xl mx-auto text-lg text-slate-500 leading-relaxed">
-          No studio. No commute. No compromises. Private high-performance yoga, Pilates, and recovery sessions
+          Private high-performance yoga, Pilates, and recovery sessions
           across Bryan, College Station, and the Brazos Valley.
         </p>
 
@@ -87,9 +87,9 @@ export function Hero() {
             <strong className="text-slate-700">4.9</strong> avg rating
           </span> */}
           {/* <span className="hidden sm:block w-px h-4 bg-slate-200" /> */}
-          <span>1000+ sessions delivered</span>
+          {/* <span>1000+ sessions delivered</span>
           <span className="hidden sm:block w-px h-4 bg-slate-200" />
-          <span>Serving Brazos Valley since 2023</span>
+          <span>Serving Brazos Valley since 2023</span> */}
         </div>
 
         <p className="mt-8 text-sm font-semibold text-slate-400">

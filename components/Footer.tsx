@@ -74,11 +74,17 @@ export function Footer() {
           ))}
         </div>
 
+        {/* Disclaimer */}
+        <div className="border-t border-white/10 pt-6 mb-6">
+          <p className="text-xs text-slate-600 leading-relaxed">
+            <span className="font-semibold text-slate-500">Disclaimer:</span> Neon Fox provides high-performance mobility coaching, yoga, and wellness instruction. These services are intended for educational and fitness purposes and are not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition or injury recovery. Use of this site and our services is at your own risk.
+          </p>
+        </div>
+
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-600">
           <p>© {new Date().getFullYear()} Neon Fox. All rights reserved.</p>
           <div className="flex items-center gap-4">
-            <span>College Station, TX 77840</span>
             <Link
               href="/corporate"
               className="hover:text-slate-400 transition-colors"
