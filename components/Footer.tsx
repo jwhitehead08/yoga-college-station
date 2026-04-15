@@ -15,7 +15,7 @@ const footerLinks = {
   Learn: [
     { label: "Blog", href: "/blog" },
     { label: "About", href: "/about" },
-    { label: "FAQ", href: "/#contact" },
+    // { label: "FAQ", href: "/#contact" },
   ],
   Connect: [
     { label: "Book a Session", href: "/#contact" },
