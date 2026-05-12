@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import VagaroWidget from "@/components/VagaroWidget";
 import {
-  ArrowRight,
   Sun,
   MapPin,
   Calendar,
@@ -58,9 +58,9 @@ const starterPackItems = [
 ];
 
 const programDetails = [
-  { icon: Calendar, stat: "8 Weeks", label: "Summer Series Length" },
-  { icon: Clock, stat: "1× / Week", label: "Session Frequency" },
-  { icon: MapPin, stat: "Outdoor", label: "College Station Parks" },
+  { icon: Calendar, stat: "8 Weeks", label: "June 3 – July 22" },
+  { icon: Clock, stat: "8:30am", label: "Wednesdays" },
+  { icon: MapPin, stat: "Wolf Pen Creek", label: "College Station, TX" },
   { icon: Users, stat: "Ages 4–7", label: "Target Age Range" },
 ];
 
@@ -140,20 +140,20 @@ export default function KidsYogaPage() {
             <span className="text-[#2F4F4F]">Kids Yoga Summer Series.</span>
           </h1>
 
-          <p className="text-lg sm:text-xl text-slate-400 leading-relaxed max-w-2xl mx-auto mb-10">
-            An 8-week outdoor yoga series at local College Station parks — designed
-            to build coordination, confidence, and a love of movement through
-            nature-inspired play. No experience needed. All levels welcome.
+          <p className="text-lg sm:text-xl text-slate-400 leading-relaxed max-w-2xl mx-auto mb-4">
+            An 8-week outdoor yoga series at Wolf Pen Creek — Wednesdays at 8:30am,
+            June 3 through July 22. Designed to build coordination, confidence, and
+            a love of movement through nature-inspired play. No experience needed.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              href="/#contact"
-              className="group inline-flex items-center gap-2 rounded-full bg-[#2F4F4F] hover:bg-[#263f3f] px-7 py-3.5 text-sm font-bold text-white transition-all shadow-lg shadow-[#2F4F4F]/20"
-            >
-              Register Your Child
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-            </Link>
+          <div className="inline-flex items-center gap-2 bg-[#2F4F4F]/20 border border-[#2F4F4F]/40 rounded-full px-5 py-2 mb-8">
+            <span className="text-xs font-bold text-[#2F4F4F] uppercase tracking-widest">Early Bird</span>
+            <span className="text-white font-extrabold text-lg">$125</span>
+            <span className="text-slate-400 text-xs">— Limited Time</span>
+          </div>
+
+          <div className="flex flex-col items-center gap-4">
+            <VagaroWidget />
             <a
               href="#starter-pack"
               className="inline-flex items-center gap-2 rounded-full border border-white/15 hover:border-white/30 px-7 py-3.5 text-sm font-semibold text-slate-300 hover:text-white transition-all"
@@ -390,7 +390,7 @@ export default function KidsYogaPage() {
       </section>
 
       {/* ── CTA ──────────────────────────────────────────── */}
-      <section className="bg-[#1A1A1A] py-24 px-4 sm:px-6 lg:px-8">
+      <section id="register" className="bg-[#1A1A1A] py-24 px-4 sm:px-6 lg:px-8 scroll-mt-24">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-semibold uppercase tracking-widest text-[#2F4F4F] mb-4">
             Summer 2026 · Limited Spots
@@ -402,21 +402,24 @@ export default function KidsYogaPage() {
               in the Series.
             </span>
           </h2>
+
+          {/* Early Bird Pricing */}
+          <div className="inline-flex flex-col items-center bg-[#2F4F4F]/15 border border-[#2F4F4F]/40 rounded-2xl px-8 py-5 mb-8">
+            <span className="text-xs font-bold text-[#2F4F4F] uppercase tracking-widest mb-1">Early Bird Registration Open</span>
+            <span className="text-white font-extrabold text-4xl mb-1">$125</span>
+            <span className="text-slate-400 text-xs">Limited time · June 3 – July 22 · Wednesdays at 8:30am · Wolf Pen Creek</span>
+          </div>
+
           <p className="text-slate-400 max-w-xl mx-auto text-sm leading-relaxed mb-10">
             Enrollment is limited to keep class sizes small and sessions
-            high-quality. Use the form below to register — include your
-            child&apos;s name, age, and t-shirt size and we&apos;ll confirm
-            your spot.
+            high-quality. Register below to lock in the early bird rate.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              href="/#contact"
-              className="group inline-flex items-center gap-2 rounded-full bg-[#2F4F4F] hover:bg-[#263f3f] px-7 py-3.5 text-sm font-bold text-white transition-all shadow-lg shadow-[#2F4F4F]/25"
-            >
-              Register Now — Summer 2026
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-            </Link>
+          <div className="mb-8">
+            <VagaroWidget />
+          </div>
+
+          <div className="flex justify-center mb-6">
             <Link
               href="/about"
               className="inline-flex items-center gap-2 rounded-full border border-white/15 hover:border-white/30 px-7 py-3.5 text-sm font-semibold text-slate-300 hover:text-white transition-all"
@@ -425,7 +428,7 @@ export default function KidsYogaPage() {
             </Link>
           </div>
 
-          <p className="mt-6 text-xs text-slate-600">
+          <p className="text-xs text-slate-600">
             Questions?{" "}
             <a
               href="mailto:neonfoxmethod@gmail.com"
