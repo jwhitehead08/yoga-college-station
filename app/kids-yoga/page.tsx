@@ -47,14 +47,14 @@ const starterPackItems = [
   {
     icon: Layers,
     name: "Yoga Mat",
-    desc: "A proper non-slip mat — theirs to keep for home practice long after the series ends.",
-    detail: "Non-slip · Lightweight · Keep it forever",
+    desc: "A proper mat — theirs to keep for home practice long after the series ends.",
+    detail: "Lightweight · Keep it forever",
   },
   {
     icon: Sparkles,
-    name: "Animal Pose Sticker Set",
-    desc: "The full Neon Fox animal pose collection — illustrated stickers of every pose from the series so they can remember what they learned.",
-    detail: "12-sticker set · Exclusive to Summer Series",
+    name: "Neon Fox Sticker",
+    desc: "An exclusive Neon Fox sticker — a small but mighty keepsake from the series.",
+    detail: "Neon Fox branded",
   },
 ];
 
@@ -297,14 +297,14 @@ export default function KidsYogaPage() {
                 handing them off to someone who lives in this community,
                 cares about it, and has skin in the game.
               </p>
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <Link
                   href="/about"
                   className="inline-flex items-center gap-2 rounded-full border border-white/15 hover:border-white/30 px-6 py-3 text-sm font-semibold text-slate-300 hover:text-white transition-all"
                 >
                   Meet the Full Team
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -364,7 +364,7 @@ export default function KidsYogaPage() {
           </div>
 
           <p className="text-center text-xs text-slate-600 mt-8">
-            Starter Packs are distributed at the first session. Sizes collected at registration.
+            Yoga Mats are distributed at the first session. T-Shirt sizes collected at registration.
           </p>
         </div>
       </section>
