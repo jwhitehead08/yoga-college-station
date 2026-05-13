@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import VagaroWidget from "@/components/VagaroWidget";
 import {
   Sun,
@@ -250,6 +251,60 @@ export default function KidsYogaPage() {
                   </div>
                 );
               })}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── MEET THE INSTRUCTOR ──────────────────────────── */}
+      <section className="bg-[#0a0a0a] py-20 px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="relative rounded-2xl overflow-hidden aspect-[4/5] max-w-sm mx-auto lg:mx-0">
+              <Image
+                src="/whitehead-family.jpg"
+                alt="Lauren Whitehead and family — College Station, TX"
+                fill
+                className="object-cover object-top"
+              />
+            </div>
+
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-widest text-[#2F4F4F] mb-4">
+                Your Instructor
+              </p>
+              <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight mb-5">
+                A College Station Mom
+                <br />
+                <span className="text-[#2F4F4F]">Who Gets It.</span>
+              </h2>
+              <p className="text-slate-400 text-sm leading-relaxed mb-4">
+                Lauren Whitehead isn&apos;t just an instructor — she&apos;s a
+                College Station parent raising her own kids here. She knows
+                these parks, these summers, and exactly what it takes to keep
+                young kids engaged and moving when Texas heat sets in.
+              </p>
+              <p className="text-slate-400 text-sm leading-relaxed mb-4">
+                A Texas A&amp;M Zoology graduate and RYT-200 certified yoga
+                instructor, Lauren built the Kids Yoga Summer Series because
+                she wanted something for her own children — a structured,
+                outdoor program grounded in real movement science, not just
+                entertainment. The result is a curriculum that parents trust
+                and kids actually look forward to every week.
+              </p>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                When you register your child with Neon Fox, you&apos;re
+                handing them off to someone who lives in this community,
+                cares about it, and has skin in the game.
+              </p>
+              <div className="mt-8">
+                <Link
+                  href="/about"
+                  className="inline-flex items-center gap-2 rounded-full border border-white/15 hover:border-white/30 px-6 py-3 text-sm font-semibold text-slate-300 hover:text-white transition-all"
+                >
+                  Meet the Full Team
+                </Link>
+              </div>
             </div>
           </div>
         </div>
