@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/Hero";
 import { ServiceCards } from "@/components/ServiceCards";
-import { KidsSummerBanner } from "@/components/KidsSummerBanner";
 import { TrustSignals } from "@/components/TrustSignals";
 import { Pricing } from "@/components/Pricing";
 import { ContactForm } from "@/components/ContactForm";
@@ -31,7 +30,6 @@ export default function Home() {
     <>
       <Hero />
       <ServiceCards />
-      <KidsSummerBanner />
       {/* <TrustSignals /> */}
       <Pricing />
       <ContactForm />

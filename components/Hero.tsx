@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { User, CalendarDays, ArrowRight, Star } from "lucide-react";
+import { KidsSummerBanner } from "@/components/KidsSummerBanner";
 
 const segments = [
   {
@@ -99,8 +100,10 @@ export function Hero() {
 
 
 
+      <KidsSummerBanner />
+
       {/* Segment cards */}
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pb-20">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pt-16 pb-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {segments.map((seg) => {
             const Icon = seg.icon;
