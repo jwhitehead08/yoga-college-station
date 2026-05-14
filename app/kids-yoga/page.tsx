@@ -186,6 +186,40 @@ export default function KidsYogaPage() {
         </div>
       </section>
 
+      {/* ── PHOTO MOSAIC ─────────────────────────────────── */}
+      <section className="bg-[#0a0a0a] overflow-hidden">
+        <div className="flex flex-col lg:flex-row lg:h-[540px] gap-0.5">
+          {/* Warrior — hero action shot */}
+          <div className="relative w-full lg:w-3/5 h-72 sm:h-96 lg:h-full shrink-0">
+            <Image
+              src="/kids-yoga-warrior.jpg"
+              alt="Kids doing warrior pose outdoors at Wolf Pen Creek"
+              fill
+              className="object-cover object-center"
+            />
+          </div>
+          {/* Right stack */}
+          <div className="flex flex-row lg:flex-col w-full lg:w-2/5 gap-0.5">
+            <div className="relative w-1/2 lg:w-full h-52 sm:h-64 lg:h-1/2">
+              <Image
+                src="/kids-yoga-popsicle.jpg"
+                alt="Kids enjoying popsicles after yoga class at the park"
+                fill
+                className="object-cover object-[center_20%]"
+              />
+            </div>
+            <div className="relative w-1/2 lg:w-full h-52 sm:h-64 lg:h-1/2">
+              <Image
+                src="/kids-yoga-hands.jpg"
+                alt="Kids putting hands together showing Neon Fox animal stamps"
+                fill
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── ABOUT THE PROGRAM ────────────────────────────── */}
       <section className="bg-white py-20 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
@@ -414,33 +448,45 @@ export default function KidsYogaPage() {
 
       {/* ── WHAT TO BRING ────────────────────────────────── */}
       <section className="bg-white py-20 px-4 sm:px-6 lg:px-8 border-y border-slate-100">
-        <div className="mx-auto max-w-3xl">
-          <div className="text-center mb-10">
-            <p className="text-xs font-semibold uppercase tracking-widest text-[#2F4F4F] mb-3">
-              Prep List
-            </p>
-            <h2 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-              What to Bring
-            </h2>
-            <p className="mt-3 text-slate-500 text-sm">
-              We handle the curriculum and gear — just make sure your child
-              arrives ready for a Texas summer morning.
-            </p>
-          </div>
+        <div className="mx-auto max-w-7xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Photo */}
+            <div className="relative rounded-2xl overflow-hidden aspect-[4/5] max-w-sm mx-auto lg:mx-0 order-2 lg:order-1">
+              <Image
+                src="/kids-yoga-popsicle.jpg"
+                alt="Kids enjoying popsicles after class at Wolf Pen Creek"
+                fill
+                className="object-cover object-top"
+              />
+            </div>
 
-          <ul className="space-y-3 max-w-lg mx-auto">
-            {bringItems.map((item) => (
-              <li
-                key={item}
-                className="flex items-start gap-3 bg-slate-50 rounded-xl px-5 py-4 border border-slate-100"
-              >
-                <Check className="h-4 w-4 text-[#2F4F4F] shrink-0 mt-0.5" />
-                <span className="text-sm text-slate-600 leading-relaxed">
-                  {item}
-                </span>
-              </li>
-            ))}
-          </ul>
+            {/* Checklist */}
+            <div className="order-1 lg:order-2">
+              <p className="text-xs font-semibold uppercase tracking-widest text-[#2F4F4F] mb-3">
+                Prep List
+              </p>
+              <h2 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight mb-3">
+                What to Bring
+              </h2>
+              <p className="text-slate-500 text-sm mb-8">
+                We handle the curriculum and gear — just make sure your child
+                arrives ready for a Texas summer morning.
+              </p>
+              <ul className="space-y-3">
+                {bringItems.map((item) => (
+                  <li
+                    key={item}
+                    className="flex items-start gap-3 bg-slate-50 rounded-xl px-5 py-4 border border-slate-100"
+                  >
+                    <Check className="h-4 w-4 text-[#2F4F4F] shrink-0 mt-0.5" />
+                    <span className="text-sm text-slate-600 leading-relaxed">
+                      {item}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
