@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import VagaroWidget from "@/components/VagaroWidget";
 import {
+  ArrowRight,
   Sun,
   MapPin,
   Calendar,
@@ -153,8 +153,16 @@ export default function KidsYogaPage() {
             <span className="text-slate-400 text-xs">— Limited Time</span>
           </div>
 
-          <div className="flex flex-col items-center gap-4">
-            <VagaroWidget />
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="https://app.arketa.co/neonfoxfitness/pricing/checkout/UYFM4f9XkCuXEboJJYgO?_gl=1*198nl35*_gcl_aw*R0NMLjE3Nzg3ODQ0MzIuQ2p3S0NBanc1WlhRQmhCZEVpd0FJNVhWV1JESUZ3ajNpcmNtNHJZdV83eFdFMXhLVUd4YkhyRnhRY0pDZUE2NXk4LTlPd2hmS0I4Q1NCb0NhWEVRQXZEX0J3RQ..*_gcl_au*NjQyNjE0NDI0LjE3Nzg3ODEyMTYuMTg1NzgxNDY4OS4xNzc4NzgxNDExLjE3Nzg3ODM0NTQ.*_ga*MTIyNTIwMjgwMy4xNzc4NzgxMjE2*_ga_M2ZSW5XNW8*czE3Nzg3ODEyMTYkbzEkZzEkdDE3Nzg3ODU1MjkkajE1JGwwJGgw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-2 rounded-full bg-[#2F4F4F] hover:bg-[#263f3f] px-7 py-3.5 text-sm font-bold text-white transition-all shadow-lg shadow-[#2F4F4F]/20"
+            >
+              Register for Summer Series
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+            </a>
             <a
               href="#starter-pack"
               className="inline-flex items-center gap-2 rounded-full border border-white/15 hover:border-white/30 px-7 py-3.5 text-sm font-semibold text-slate-300 hover:text-white transition-all"
@@ -517,7 +525,15 @@ export default function KidsYogaPage() {
           </p>
 
           <div className="mb-8">
-            <VagaroWidget />
+            <a
+              href="https://app.arketa.co/neonfoxfitness/pricing/checkout/UYFM4f9XkCuXEboJJYgO?_gl=1*198nl35*_gcl_aw*R0NMLjE3Nzg3ODQ0MzIuQ2p3S0NBanc1WlhRQmhCZEVpd0FJNVhWV1JESUZ3ajNpcmNtNHJZdV83eFdFMXhLVUd4YkhyRnhRY0pDZUE2NXk4LTlPd2hmS0I4Q1NCb0NhWEVRQXZEX0J3RQ..*_gcl_au*NjQyNjE0NDI0LjE3Nzg3ODEyMTYuMTg1NzgxNDY4OS4xNzc4NzgxNDExLjE3Nzg3ODM0NTQ.*_ga*MTIyNTIwMjgwMy4xNzc4NzgxMjE2*_ga_M2ZSW5XNW8*czE3Nzg3ODEyMTYkbzEkZzEkdDE3Nzg3ODU1MjkkajE1JGwwJGgw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-2 rounded-full bg-[#2F4F4F] hover:bg-[#263f3f] px-7 py-3.5 text-sm font-bold text-white transition-all shadow-lg shadow-[#2F4F4F]/25"
+            >
+              Register for Summer Series
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+            </a>
           </div>
 
           <div className="flex justify-center mb-6">
