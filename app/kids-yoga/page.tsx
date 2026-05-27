@@ -19,7 +19,7 @@ import {
 export const metadata: Metadata = {
   title: "Kids Yoga Summer Series | Neon Fox — College Station, TX",
   description:
-    "8-week Kids Yoga Summer Series in College Station, TX. Outdoor animal-pose classes at local parks for children. Every registration includes the Neon Fox Starter Pack.",
+    "8-week Kids Yoga Summer Series in College Station, TX. Outdoor animal-pose classes at local parks for children.",
   keywords: [
     "Kids Yoga College Station",
     "Summer Youth Camps Bryan TX",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Kids Yoga Summer Series — College Station, TX | Neon Fox",
     description:
-      "8-week outdoor kids yoga series in College Station, TX. Fun with Animal Poses at local parks — every registration includes the Neon Fox Starter Pack.",
+      "8-week outdoor kids yoga series in College Station, TX. Fun with Animal Poses at local parks.",
     url: "https://www.neonfoxmethod.com/kids-yoga",
   },
 };
@@ -142,16 +142,16 @@ export default function KidsYogaPage() {
           </h1>
 
           <p className="text-lg sm:text-xl text-slate-400 leading-relaxed max-w-2xl mx-auto mb-4">
-            An 8-week outdoor yoga series at Wolf Pen Creek — Wednesdays at 8:30am,
+            An 8-week drop-in outdoor yoga series at Wolf Pen Creek — Wednesdays at 8:30am,
             June 3 through July 22. Designed to build coordination, confidence, and
             a love of movement through nature-inspired play. No experience needed.
           </p>
 
-          <div className="inline-flex items-center gap-2 bg-[#2F4F4F]/20 border border-[#2F4F4F]/40 rounded-full px-5 py-2 mb-8">
+          {/* <div className="inline-flex items-center gap-2 bg-[#2F4F4F]/20 border border-[#2F4F4F]/40 rounded-full px-5 py-2 mb-8">
             <span className="text-xs font-bold text-[#2F4F4F] uppercase tracking-widest">Early Bird</span>
             <span className="text-white font-extrabold text-lg">$125</span>
             <span className="text-slate-400 text-xs">— Limited Time</span>
-          </div>
+          </div> */}
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -353,7 +353,7 @@ export default function KidsYogaPage() {
       </section>
 
       {/* ── STARTER PACK ─────────────────────────────────── */}
-      <section
+      {/* <section
         id="starter-pack"
         className="bg-[#1A1A1A] py-20 px-4 sm:px-6 lg:px-8 scroll-mt-24"
       >
@@ -379,9 +379,9 @@ export default function KidsYogaPage() {
                 <div
                   key={item.name}
                   className="group relative bg-[#36454F] rounded-2xl border border-white/10 p-8 hover:border-[#2F4F4F] transition-all duration-200 overflow-hidden"
-                >
+                > */}
                   {/* Subtle glow on hover */}
-                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-br from-[#2F4F4F]/20 to-transparent transition-opacity duration-300 rounded-2xl pointer-events-none" />
+                  {/* <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-br from-[#2F4F4F]/20 to-transparent transition-opacity duration-300 rounded-2xl pointer-events-none" />
 
                   <div className="relative">
                     <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#2F4F4F] mb-6">
@@ -403,13 +403,13 @@ export default function KidsYogaPage() {
                 </div>
               );
             })}
-          </div>
+          </div> */}
 
-          <p className="text-center text-xs text-slate-600 mt-8">
+          {/* <p className="text-center text-xs text-slate-600 mt-8">
             Yoga Mats are distributed at the first session. T-Shirt sizes collected at registration.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* ── ANIMAL POSE SERIES ───────────────────────────── */}
       <section className="bg-slate-50 py-20 px-4 sm:px-6 lg:px-8">
@@ -514,14 +514,14 @@ export default function KidsYogaPage() {
 
           {/* Early Bird Pricing */}
           <div className="inline-flex flex-col items-center bg-[#2F4F4F]/15 border border-[#2F4F4F]/40 rounded-2xl px-8 py-5 mb-8">
-            <span className="text-xs font-bold text-[#2F4F4F] uppercase tracking-widest mb-1">Early Bird Registration Open</span>
-            <span className="text-white font-extrabold text-4xl mb-1">$125</span>
+            <span className="text-xs font-bold text-[#2F4F4F] uppercase tracking-widest mb-1">Registration Open</span>
+            {/* <span className="text-white font-extrabold text-4xl mb-1">$125</span> */}
             <span className="text-slate-400 text-xs">Limited time · June 3 – July 22 · Wednesdays at 8:30am · Wolf Pen Creek</span>
           </div>
 
           <p className="text-slate-400 max-w-xl mx-auto text-sm leading-relaxed mb-10">
             Enrollment is limited to keep class sizes small and sessions
-            high-quality. Register below to lock in the early bird rate.
+            high-quality. Register below.
           </p>
 
           <div className="mb-8">

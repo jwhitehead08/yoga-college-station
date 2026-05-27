@@ -13,7 +13,7 @@ export function KidsSummerBanner() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-[#2F4F4F] text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-6">
               <Sun className="h-3.5 w-3.5 text-yellow-300" />
-              Early Bird Now Open · Summer 2026
+              Now Open · Summer 2026
             </div>
 
             <h2 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight leading-[1.05] mb-5">
@@ -25,7 +25,7 @@ export function KidsSummerBanner() {
             <p className="text-slate-600 text-base leading-relaxed mb-7 max-w-md">
               8 weeks of outdoor yoga at Wolf Pen Creek — built for kids ages
               4–7 who are ready to move, play, and explore the natural world.
-              Every registration includes the Neon Fox Starter Pack.
+              {/* Every registration includes the Neon Fox Starter Pack. */}
             </p>
 
             {/* Detail pills */}
@@ -46,11 +46,11 @@ export function KidsSummerBanner() {
 
             {/* Price + CTA */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-              <div className="bg-white rounded-2xl px-6 py-4 border border-slate-200 shadow-sm text-center">
+              {/* <div className="bg-white rounded-2xl px-6 py-4 border border-slate-200 shadow-sm text-center">
                 <p className="text-xs font-bold uppercase tracking-widest text-[#2F4F4F] mb-0.5">Early Bird</p>
                 <p className="text-3xl font-black text-slate-900">$125</p>
                 <p className="text-xs text-slate-400 mt-0.5">Limited time</p>
-              </div>
+              </div> */}
               <Link
                 href="/kids-yoga"
                 className="group inline-flex items-center gap-2 rounded-full bg-[#2F4F4F] hover:bg-[#263f3f] px-7 py-3.5 text-sm font-bold text-white transition-all shadow-lg shadow-[#2F4F4F]/20"
