@@ -13,23 +13,23 @@ export function KidsSummerBanner() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-[#2F4F4F] text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-6">
               <Sun className="h-3.5 w-3.5 text-yellow-300" />
-              Now Open · Summer 2026
+              Coming Fall 2026
             </div>
 
             <h2 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight leading-[1.05] mb-5">
               Kids Yoga
               <br />
-              <span className="text-[#2F4F4F]">Summer Series.</span>
+              <span className="text-[#2F4F4F]">Pop-Up Classes.</span>
             </h2>
 
             <p className="text-slate-600 text-base leading-relaxed mb-7 max-w-md">
-              8 weeks of outdoor yoga at Wolf Pen Creek — built for kids ages
+              Outdoor yoga around College Station — built for kids ages
               4–7 who are ready to move, play, and explore the natural world.
               {/* Every registration includes the Neon Fox Starter Pack. */}
             </p>
 
             {/* Detail pills */}
-            <div className="flex flex-wrap gap-2 mb-8">
+            {/* <div className="flex flex-wrap gap-2 mb-8">
               <span className="inline-flex items-center gap-1.5 bg-white border border-slate-200 rounded-full px-3.5 py-1.5 text-xs font-semibold text-slate-700">
                 <Calendar className="h-3.5 w-3.5 text-[#2F4F4F]" />
                 June 3 – July 22
@@ -42,7 +42,7 @@ export function KidsSummerBanner() {
                 <MapPin className="h-3.5 w-3.5 text-[#2F4F4F]" />
                 Wolf Pen Creek
               </span>
-            </div>
+            </div> */}
 
             {/* Price + CTA */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">

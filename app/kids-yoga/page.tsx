@@ -102,7 +102,7 @@ const bringItems = [
   "Water bottle (hydration is non-negotiable in Texas summer)",
   "Sunscreen applied before arrival",
   "Comfortable, breathable clothes",
-  "Your Neon Fox mat (included in Starter Pack)",
+  // "Your Neon Fox mat (included in Starter Pack)",
   "A great attitude — no prior yoga experience needed",
 ];
 
@@ -128,22 +128,21 @@ export default function KidsYogaPage() {
           <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
             <span className="inline-flex items-center gap-1.5 bg-[#2F4F4F] px-3 py-1 rounded-full text-xs font-bold text-white uppercase tracking-widest">
               <Sun className="h-3 w-3" />
-              Summer 2026
+              Fall 2026
             </span>
             <span className="text-xs text-slate-500 uppercase tracking-widest">
-              College Station, TX · Outdoor Series
+              College Station, TX · Outdoor Pop Ups
             </span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.05] mb-6 tracking-tight">
             Fun with Animal Poses —
             <br />
-            <span className="text-[#2F4F4F]">Kids Yoga Summer Series.</span>
+            <span className="text-[#2F4F4F]">Kids Yoga Summer Pop-Ups.</span>
           </h1>
 
           <p className="text-lg sm:text-xl text-slate-400 leading-relaxed max-w-2xl mx-auto mb-4">
-            An 8-week drop-in outdoor yoga series at Wolf Pen Creek — Wednesdays at 8:30am,
-            June 3 through July 22. Designed to build coordination, confidence, and
+            Drop-in outdoor yoga classes around College Station. Designed to build coordination, confidence, and
             a love of movement through nature-inspired play. No experience needed.
           </p>
 
@@ -153,7 +152,7 @@ export default function KidsYogaPage() {
             <span className="text-slate-400 text-xs">— Limited Time</span>
           </div> */}
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="https://app.arketa.co/neonfoxfitness/pricing/checkout/UYFM4f9XkCuXEboJJYgO?_gl=1*198nl35*_gcl_aw*R0NMLjE3Nzg3ODQ0MzIuQ2p3S0NBanc1WlhRQmhCZEVpd0FJNVhWV1JESUZ3ajNpcmNtNHJZdV83eFdFMXhLVUd4YkhyRnhRY0pDZUE2NXk4LTlPd2hmS0I4Q1NCb0NhWEVRQXZEX0J3RQ..*_gcl_au*NjQyNjE0NDI0LjE3Nzg3ODEyMTYuMTg1NzgxNDY4OS4xNzc4NzgxNDExLjE3Nzg3ODM0NTQ.*_ga*MTIyNTIwMjgwMy4xNzc4NzgxMjE2*_ga_M2ZSW5XNW8*czE3Nzg3ODEyMTYkbzEkZzEkdDE3Nzg3ODU1MjkkajE1JGwwJGgw"
               target="_blank"
@@ -170,12 +169,12 @@ export default function KidsYogaPage() {
               <Package className="h-4 w-4" />
               See the Starter Pack
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
 
       {/* ── PROGRAM STATS ────────────────────────────────── */}
-      <section className="bg-[#2F4F4F] py-10 px-4 sm:px-6 lg:px-8">
+      {/* <section className="bg-[#2F4F4F] py-10 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl grid grid-cols-2 sm:grid-cols-4 gap-6">
           {programDetails.map((d) => {
             const Icon = d.icon;
@@ -192,7 +191,7 @@ export default function KidsYogaPage() {
             );
           })}
         </div>
-      </section>
+      </section> */}
 
       {/* ── PHOTO MOSAIC ─────────────────────────────────── */}
       <section className="bg-[#0a0a0a] overflow-hidden">
@@ -242,7 +241,7 @@ export default function KidsYogaPage() {
                 <span className="text-[#2F4F4F]">the Natural World.</span>
               </h2>
               <p className="text-slate-500 text-sm leading-relaxed mb-4">
-                Every session in the Kids Yoga Summer Series is built around a
+                Every session in the Kids Yoga Classes is built around a
                 different animal and its corresponding yoga pose — giving kids a
                 story to connect to their movement. Lion&apos;s Breath for
                 confidence. Eagle Arms for focus. Cobra for strength. The animal
@@ -274,11 +273,11 @@ export default function KidsYogaPage() {
                   label: "Small Groups",
                   desc: "Intentionally small class sizes so every child gets individual attention and cues.",
                 },
-                {
-                  icon: Calendar,
-                  label: "8-Week Progression",
-                  desc: "Each week builds on the last — kids finish the series noticeably more coordinated.",
-                },
+                // {
+                //   icon: Calendar,
+                //   label: "8-Week Progression",
+                //   desc: "Each week builds on the last — kids finish the series noticeably more coordinated.",
+                // },
               ].map((item) => {
                 const Icon = item.icon;
                 return (
@@ -422,7 +421,7 @@ export default function KidsYogaPage() {
               The Animals We&apos;ll Move Like
             </h2>
             <p className="mt-4 text-slate-500 max-w-xl mx-auto text-sm">
-              Each week introduces a new animal and its yoga pose — building a
+              Each class includes fun animals and corresponding yoga poses — building a
               library of movement that kids actually remember.
             </p>
           </div>
@@ -448,9 +447,9 @@ export default function KidsYogaPage() {
               </div>
             ))}
           </div>
-          <p className="text-center text-xs text-slate-400 mt-8">
+          {/* <p className="text-center text-xs text-slate-400 mt-8">
             Final curriculum subject to change. 8 animal poses across 8 weeks — themes announced at registration.
-          </p>
+          </p> */}
         </div>
       </section>
 
@@ -498,54 +497,35 @@ export default function KidsYogaPage() {
         </div>
       </section>
 
-      {/* ── CTA ──────────────────────────────────────────── */}
+      {/* ── STAY IN THE LOOP ─────────────────────────────── */}
       <section id="register" className="bg-[#1A1A1A] py-24 px-4 sm:px-6 lg:px-8 scroll-mt-24">
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="text-xs font-semibold uppercase tracking-widest text-[#2F4F4F] mb-4">
-            Summer 2026 · Limited Spots
-          </p>
-          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight mb-4">
-            Reserve Your Child&apos;s Spot
-            <br />
-            <span className="text-[#2F4F4F] italic font-bold">
-              in the Series.
-            </span>
-          </h2>
-
-          {/* Early Bird Pricing */}
-          <div className="inline-flex flex-col items-center bg-[#2F4F4F]/15 border border-[#2F4F4F]/40 rounded-2xl px-8 py-5 mb-8">
-            <span className="text-xs font-bold text-[#2F4F4F] uppercase tracking-widest mb-1">Registration Open</span>
-            {/* <span className="text-white font-extrabold text-4xl mb-1">$125</span> */}
-            <span className="text-slate-400 text-xs">Limited time · June 3 – July 22 · Wednesdays at 8:30am · Wolf Pen Creek</span>
-          </div>
-
-          <p className="text-slate-400 max-w-xl mx-auto text-sm leading-relaxed mb-10">
-            Enrollment is limited to keep class sizes small and sessions
-            high-quality. Register below.
-          </p>
-
-          <div className="mb-8">
-            <a
-              href="https://app.arketa.co/neonfoxfitness/pricing/checkout/UYFM4f9XkCuXEboJJYgO?_gl=1*198nl35*_gcl_aw*R0NMLjE3Nzg3ODQ0MzIuQ2p3S0NBanc1WlhRQmhCZEVpd0FJNVhWV1JESUZ3ajNpcmNtNHJZdV83eFdFMXhLVUd4YkhyRnhRY0pDZUE2NXk4LTlPd2hmS0I4Q1NCb0NhWEVRQXZEX0J3RQ..*_gcl_au*NjQyNjE0NDI0LjE3Nzg3ODEyMTYuMTg1NzgxNDY4OS4xNzc4NzgxNDExLjE3Nzg3ODM0NTQ.*_ga*MTIyNTIwMjgwMy4xNzc4NzgxMjE2*_ga_M2ZSW5XNW8*czE3Nzg3ODEyMTYkbzEkZzEkdDE3Nzg3ODU1MjkkajE1JGwwJGgw"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 rounded-full bg-[#2F4F4F] hover:bg-[#263f3f] px-7 py-3.5 text-sm font-bold text-white transition-all shadow-lg shadow-[#2F4F4F]/25"
-            >
-              Register for Summer Series
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-            </a>
-          </div>
-
-          <div className="flex justify-center mb-6">
+        <div className="mx-auto max-w-xl">
+          <div className="text-center mb-10">
+            <p className="text-xs font-semibold uppercase tracking-widest text-[#2F4F4F] mb-4">
+              Kids Yoga · Pop-Up Classes
+            </p>
+            <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight mb-4">
+              Be First to Know
+              <br />
+              <span className="text-[#2F4F4F] italic font-bold">
+                When We Pop Up.
+              </span>
+            </h2>
+            <p className="text-slate-400 text-sm leading-relaxed mb-8">
+              We&apos;re hosting drop-in outdoor kids yoga classes around College
+              Station this summer. Fill out our contact form and we&apos;ll reach
+              out as soon as the next one is scheduled.
+            </p>
             <Link
-              href="/about"
-              className="inline-flex items-center gap-2 rounded-full border border-white/15 hover:border-white/30 px-7 py-3.5 text-sm font-semibold text-slate-300 hover:text-white transition-all"
+              href="/#contact"
+              className="group inline-flex items-center gap-2 rounded-full bg-[#2F4F4F] hover:bg-[#263f3f] px-7 py-3.5 text-sm font-bold text-white transition-all shadow-lg shadow-[#2F4F4F]/20"
             >
-              Meet the Instructors
+              Get Notified
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </Link>
           </div>
 
-          <p className="text-xs text-slate-600">
+          <p className="mt-8 text-center text-xs text-slate-600">
             Questions?{" "}
             <a
               href="mailto:neonfoxmethod@gmail.com"
